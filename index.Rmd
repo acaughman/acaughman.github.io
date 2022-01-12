@@ -1,0 +1,20 @@
+---
+title: "Allie Caughman"
+image: "Caughman_Allie_PHD 21_Bren_001.jpg"
+site: distill::distill_website
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/allie-c-37a696102/"
+  - label: Twitter
+    url: "https://twitter.com/allie_amc"
+  - label: GitHub
+    url: "https://github.com/acaughman"
+  - label: Google Scholar
+    url: "https://scholar.google.com/citations?user=Yl1doQQAAAAJ&hl=en"
+output:
+  postcards::trestles
+---
+ 
+I am a PhD student in the Bren School of Environmental Science and Management at the University of California, Santa Barbara advised by Steve Gaines and Darcy Bradley. As a Ph.D. student at Bren, Allie is interested in the intersection of marine conservation ecology and data science. In particular, she is endeavoring to understand how to best direct conservation efforts for important species and habitats, particularly marine predators, in the face of climate change and other stressors. Allie is supported by the National Science Foundation Graduate Research Fellows Program.
+
+Email: acaughman@bren.ucsb.edu
