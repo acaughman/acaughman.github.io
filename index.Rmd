@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Allie Caughman"
 image: "Caughman_Allie_PHD 21_Bren_001.jpg"
 site: distill::distill_website
 links:
