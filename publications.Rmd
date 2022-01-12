@@ -1,10 +1,13 @@
 ---
-title: "About this site"
-description: |
-  Some additional details about the website
+title: "Publications"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+### Peer Reviewed Journals
 
+1.	*Caughman AM*, Pratte ZA, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. doi:10.1007/s00338-021-02097-8 *Caughman and Pratte co-first authors
+2.	Pratte ZA, Patin NV, McWhirt ME, *Caughman AM*, Parris DJ, Stewart FJ. 2018. Association with a sea anemone alters the skin microbiome of clownfish. Coral Reefs. 37(4):1119-1125. doi:10.1007/s00338-018-01750-z
+
+### Other Publications and Creative Products
+ 
+1.	*Caughman A*, Weigel EG. 2021. Investigating human impacts on Southeastern US stream ecology using R. QUBES Educational Resources. doi:10.25334/P995-7G91
+2.	*Caughman AM*. 2020. Variation in Coral Microbiome Composition and Transcriptional Activity of Three Corals over Diel Cycles [bachelor’s thesis]. Georgia Institute of Technology

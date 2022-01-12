@@ -1,8 +1,7 @@
 ---
-title: "About this site"
+title: "Research Projects"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+### Current Projects
 
+### Past Projects
