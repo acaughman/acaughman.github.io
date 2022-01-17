@@ -1,8 +1,8 @@
 [
   {
     "path": "posts/2022-01-17-welcome/",
-    "title": "welcome",
-    "description": "A short description of the post.",
+    "title": "Welcome",
+    "description": "Welcome to my data science blog!",
     "author": [
       {
         "name": "Allie Caughman",
@@ -11,9 +11,9 @@
     ],
     "date": "2022-01-17",
     "categories": [],
-    "contents": "\r\nWelcome to my personal research website!\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThis blog contains several data science projects that I will be completing over the course of the next few months! I look forward to sharking them with you!\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-01-17T13:26:04-08:00",
-    "input_file": {}
+    "last_modified": "2022-01-17T13:30:54-08:00",
+    "input_file": "welcome.knit.md"
   }
 ]

@@ -1,7 +1,7 @@
 ---
-title: "welcome"
+title: "Welcome"
 description: |
-  A short description of the post.
+  Welcome to my data science blog!
 author:
   - name: Allie Caughman
 date: 2022-01-17
@@ -10,4 +10,4 @@ output:
     self_contained: false
 ---
 
-Welcome to my personal research website!
+This blog will contain several data science projects that I will be completing over the course of the next few months! I look forward to sharking them with you!
