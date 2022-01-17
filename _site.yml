@@ -2,6 +2,7 @@ name: "."
 title: ""
 description: |
   mfeo
+base_url: https://acaughman.github.io/research/
 output_dir: "docs"
 theme: postcards.css
 navbar:
