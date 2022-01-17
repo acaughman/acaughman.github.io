@@ -1,8 +1,7 @@
 name: "."
 title: ""
 description: |
-  mfeo
-base_url: https://acaughman.github.io/research/
+  Personal Research Website
 output_dir: "docs"
 theme: postcards.css
 navbar:

@@ -5,35 +5,35 @@
       "title": "Posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-17T13:22:39-08:00"
+      "last_modified": "2022-01-17T13:27:05-08:00"
     },
     {
       "path": "index.html",
       "title": "Allie Caughman",
       "author": [],
       "contents": "\r\n\r\n          \r\n          \r\n          \r\n          \r\n          \r\n          Home\r\n          \r\n          \r\n          Research\r\n           \r\n          ▾\r\n          \r\n          \r\n          Current Research\r\n          Past research\r\n          \r\n          \r\n          Publications\r\n          Blog\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Allie Caughman\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        LinkedIn\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Twitter\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        GitHub\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Google Scholar\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            I am a PhD student in the Bren School of Environmental Science and Management at the University of California, Santa Barbara advised by Steve Gaines and Darcy Bradley.\r\n            I am interested in the intersection of movement ecology, conservation, evolution, and data science. In particular, I am endeavoring to understand how movement may evolve in the face of climate change and other pressures (such as fishing) to best direct conservation efforts for important species and habitats, particularly marine predators. I am currently supported by the National Science Foundation Graduate Research Fellows Program.\r\n            Email: acaughman@bren.ucsb.edu\r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Allie Caughman\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Google Scholar\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              I am a PhD student in the Bren School of Environmental Science and Management at the University of California, Santa Barbara advised by Steve Gaines and Darcy Bradley.\r\n              I am interested in the intersection of movement ecology, conservation, evolution, and data science. In particular, I am endeavoring to understand how movement may evolve in the face of climate change and other pressures (such as fishing) to best direct conservation efforts for important species and habitats, particularly marine predators. I am currently supported by the National Science Foundation Graduate Research Fellows Program.\r\n              Email: acaughman@bren.ucsb.edu\r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
-      "last_modified": "2022-01-17T13:22:39-08:00"
+      "last_modified": "2022-01-17T13:27:05-08:00"
     },
     {
       "path": "past_research.html",
       "title": "Past Research Projects",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-17T13:22:40-08:00"
+      "last_modified": "2022-01-17T13:27:06-08:00"
     },
     {
       "path": "publications.html",
       "title": "Publications",
       "author": [],
       "contents": "\r\nPeer Reviewed Journals\r\nCaughman AM, Pratte ZA, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. doi:10.1007/s00338-021-02097-8 *Caughman and Pratte co-first authors\r\nPratte ZA, Patin NV, McWhirt ME, Caughman AM, Parris DJ, Stewart FJ. 2018. Association with a sea anemone alters the skin microbiome of clownfish. Coral Reefs. 37(4):1119-1125. doi:10.1007/s00338-018-01750-z\r\nOther Publications and Creative Products\r\nCaughman A, Weigel EG. 2021. Investigating human impacts on Southeastern US stream ecology using R. QUBES Educational Resources. doi:10.25334/P995-7G91\r\nCaughman AM. 2020. Variation in Coral Microbiome Composition and Transcriptional Activity of Three Corals over Diel Cycles [bachelor’s thesis]. Georgia Institute of Technology\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-17T13:22:40-08:00"
+      "last_modified": "2022-01-17T13:27:06-08:00"
     },
     {
       "path": "research.html",
       "title": "Current Research Projects",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-17T13:22:40-08:00"
+      "last_modified": "2022-01-17T13:27:07-08:00"
     }
   ],
   "collections": ["posts/posts.json"]

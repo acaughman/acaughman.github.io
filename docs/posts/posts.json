@@ -1,1 +1,19 @@
-[hi]
+[
+  {
+    "path": "posts/2022-01-17-welcome/",
+    "title": "welcome",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Allie Caughman",
+        "url": {}
+      }
+    ],
+    "date": "2022-01-17",
+    "categories": [],
+    "contents": "\r\nWelcome to my personal research website!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-17T13:26:04-08:00",
+    "input_file": {}
+  }
+]
