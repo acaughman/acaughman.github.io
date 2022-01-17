@@ -9,7 +9,11 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Research"
-      href: research.html
+      menu:
+        - text: "Current Research"
+          href: research.html
+        - text: "Past research"
+          href: past_research.html
     - text: "Publications"
       href: publications.html
     - text: "Blog"

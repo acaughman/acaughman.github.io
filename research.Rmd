@@ -1,7 +1,5 @@
 ---
-title: "Research Projects"
+title: "Current Research Projects"
 ---
 
-### Current Projects
 
-### Past Projects
