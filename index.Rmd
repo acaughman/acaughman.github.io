@@ -17,6 +17,6 @@ output:
  
 I am a PhD student in the [Bren School of Environmental Science and Management](https://bren.ucsb.edu/) at the University of California, Santa Barbara advised by [Steve Gaines](https://bren.ucsb.edu/people/steve-gaines) and [Darcy Bradley](https://www.darcybradley.com/). 
 
-I am interested in the intersection of movement ecology, conservation, evolution, and data science. In particular, I am endeavoring to understand how movement may evolve in the face of climate change and other pressures (such as fishing) to best direct conservation efforts for important species and habitats, particularly marine predators. I am currently supported by the National Science Foundation Graduate Research Fellows Program.
+I am interested in the intersection ofmarine animal movement ecology, conservation, evolution, and data science. In particular, I am endeavoring to understand how movement behaviors may evolve in the face of climate change and other pressures (such as fishing) in order to best direct conservation efforts for important species and habitats, particularly marine predators. I am currently supported by the National Science Foundation Graduate Research Fellows Program.
 
 Email: acaughman@bren.ucsb.edu
