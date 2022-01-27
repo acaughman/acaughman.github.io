@@ -2,4 +2,10 @@
 title: "Current Research Projects"
 ---
 
+## Eco-Evolutionary Effects
 
+### Climate change and fishing affects on marine species movement behaviors
+
+## Marine Movement Ecology
+
+### Predicting commericailly relevant fish species home ranges
