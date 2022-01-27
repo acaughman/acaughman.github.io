@@ -8,12 +8,16 @@ navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "About Me"
+      href: about.html
     - text: "Research"
       menu:
         - text: "Current Research"
           href: research.html
-        - text: "Past research"
+        - text: "Past Research"
           href: past_research.html
+        - text: "Field Research"
+          href: field_work.html
     - text: "Publications"
       href: publications.html
     - text: "Blog"
