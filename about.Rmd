@@ -4,4 +4,10 @@ title: "About Me"
 
 ### Research Interests
 
+While completing my PhD I hope to gain a broad array of skills within the realm of marine animal movement ecology, data science, and conservation biology. I am largely interested in the affect of climate change and fishing pressure on species movement behaviors, such as home range sizes and dispersal ability/rate. 
+
+I hope to leverage my existing programming skills to develop simulation models to answer a broach range of questions about species movement in climate change and translate that into effective marine protected area design solutions. 
+
 ### Hobbies
+
+I spend most of my free time rock climbing at the Santa Barbara Rock Gym in downtown Santa Barbara. I also enjoy hiking, kayaking, SCUBA Diving and other outdoorsy activities!

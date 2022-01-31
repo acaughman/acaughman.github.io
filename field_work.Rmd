@@ -1,11 +1,13 @@
 ---
 title: "Field Work"
+image: "moorea1.jpg"
 ---
 
-## Current Work
-
-### Santa Barbara Channel LTER
-
-## Past Work
-
 ### Mo'orea Coral Reef LTER
+
+I spent June 2021 in Mo'orea, French Polynesia at the Gump Station assisting Mark Hay's lab as a reserach technician. As part of my work I: 
+
+* Collected samples of nudibranchs, sea hares, crabs, macroalgae, and turf algae. 
+* Placed settlement panels and fertilizer on the reef. 
+* Conducted feeding choice assays and flume chemical cue assays on nudibranchs, sea hares, and crabs.
+* Preformed sea cucumber dissection for microbiome analysis of gut contents.

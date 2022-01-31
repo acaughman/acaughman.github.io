@@ -31,6 +31,7 @@ html {
   --mono-font:       monospace;
   --body-font:       sans-serif;
   --navbar-font:     sans-serif;  /* websites + blogs only */
+  background-color:  #FFFFFF;
 }
 
 /*-- ARTICLE METADATA --*/
@@ -39,6 +40,7 @@ d-byline {
   --heading-color:   rgba(0, 0, 0, 0.5);
   --body-size:       0.8rem;
   --body-color:      rgba(0, 0, 0, 0.8);
+  background-color:  #FFFFFF;
 }
 
 /*-- ARTICLE TABLE OF CONTENTS --*/
@@ -63,16 +65,26 @@ d-appendix {
   --text-color:       #00000;
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #3DED97;
+  --bkgd-color:       #abd8ea;
+  height:             50px;
 }
 
 .distill-site-footer {
   --text-color:       #00000;
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #3DED97;
+  --bkgd-color:       #abd8ea;
 }
+
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+body {
+  background-color: #FFFFFF;
+}

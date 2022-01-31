@@ -6,6 +6,17 @@ title: "Current Research Projects"
 ## Marine Movement Ecology
 
 
-### Climate change and fishing affects on marine species movement behaviors
+### Climate change and fishing affects on marine species movement behavior
 
-### Predicting commericailly relevant fish species home ranges
+
+
+### Predicting commercially relevant fish species home ranges
+
+I developed a random forest model in order to predict home range values for over 800 species of commercially relevant marine species. Data inputs were generated from an extensive literature review of empirical home range studies. The model was able to predict home range values of species within an order of magnitude almost 90% of the time. This model will be useful in the future for understanding how much space species utilize and for classifying groupings of movement characteristics in future efforts. 
+
+
+## Marine species Habitat Use
+
+### Using sonar to assess fish densities within kelp aquaculture farms
+
+Similar to natural kelp forests, kelp farms and other forms of aquaculture, such as fish and bivalve farms, increase abundance and diversity of wild species due to habitat and food source provisioning. Given this added structure, we predicted that fish will be attracted to kelp farms in higher abundances than surrounding areas. Here we aim to quantify changes in density of wild fish at and away from kelp farms using hydroacoustic surveys in order to determine if aquaculture farms will have a positive effect on wild fish populations.
