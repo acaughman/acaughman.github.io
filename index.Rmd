@@ -1,5 +1,5 @@
 ---
-title: "Alicia (Allie) Caughman"
+title: "Allie Caughman"
 image: "images/Caughman_Allie_PHD 21_Bren_001.jpg"
 site: distill::distill_website
 links:
@@ -14,9 +14,17 @@ links:
 output:
   postcards::solana
 ---
- 
+
+### Bio
+
 I am a PhD student in the [Bren School of Environmental Science and Management](https://bren.ucsb.edu/) at the University of California, Santa Barbara advised by [Steve Gaines](https://bren.ucsb.edu/people/steve-gaines) and [Darcy Bradley](https://www.darcybradley.com/). 
 
-I am interested in the intersection ofmarine animal movement ecology, conservation, evolution, and data science. In particular, I am endeavoring to understand how movement behaviors may evolve in the face of climate change and other pressures in order to best direct conservation efforts for important species and habitats, particularly marine predators. I am currently supported by the National Science Foundation Graduate Research Fellows Program.
+I am interested in the intersection of marine animal movement ecology, conservation, evolution, and data science. In particular, I am endeavoring to understand how movement behaviors may evolve in the face of climate change and other pressures in order to best direct conservation efforts for important species and habitats, particularly marine predators. I am currently supported by the National Science Foundation Graduate Research Fellows Program.
+
+### Education
+
+B.S. in Biology | Georgia Institute of Technology | 2016-2020
+
+### Contact
 
 Email: acaughman@bren.ucsb.edu
