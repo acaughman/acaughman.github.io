@@ -24,3 +24,6 @@ navbar:
       href: blog.html
   search: false
 output: distill::distill_article
+collections:
+  posts:
+    citations: false

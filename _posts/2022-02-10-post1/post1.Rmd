@@ -1,7 +1,5 @@
 ---
-title: "Post_1"
-description: |
-  A short description of the post.
+title: "Predicting Palmetto Species using Binary Logistic Regression"
 author:
   - name: Allie Caughman
     url: {}
@@ -9,15 +7,185 @@ date: 2022-02-10
 output:
   distill::distill_article:
     self_contained: false
+    code_folding: hide
 ---
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+### Overview
+
+This report will preform logistic regression to predict which of two species of palmetto, *Serenoa repens* and *Sabal etonia*, a specific record is. Data was collected from south-central Flordia every 5 years form 1981 to 2017. Data used in these models include:
+
+* height: The maximum height recorded between 1981 and 2017 in centimeters
+* length: The widest length of the canopy between 1981 and 2017 in centimeters
+* width: widest width of the canopy perpendicular to length between 1981 and 2017 in centimeters
+* green_lvs: total count of green leaves from 1981 and 2017
+
+I hope to answer how well palmetto species can be predicted based on these four variables. 
+
+
+```{r setup, include=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+
+library(tidyverse)
+library(here)
+library(caret)
+library(broom)
+library(patchwork)
+library(kableExtra)
+library(AICcmodavg)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+```{r}
+ palmetto = read_csv(here("data", "palmetto.csv")) %>% 
+  mutate(species = as.factor(species))  # turn species into a factor
+```
+
+### Exploratory Graphs
+
+```{r, fig.cap="Figure 1. Exploratory visualizations for characteristics of different palmetto species. A) Sabal etonia has slightly higher canopy widths than Serenoa repens. B) Sabal etonia has less green leaves than Serenoa repens. C) There is a positive correlation between plant height and canopy length. Sabal etonia appears to ahve longer canopy lengths than Serenoa repens."}
+
+pal_p = palmetto %>% 
+  mutate(species = case_when(
+    species == '1' ~ "Serenoa repens",
+    species == '2' ~ "Sabal etonia",
+  )) #mutate species names for plots to have actual names and not numerics
+
+p1 = ggplot(pal_p, aes(species, width)) + #plot species versus canopy width
+  theme_bw() +
+  geom_boxplot(aes(color = species)) + #add boxplot
+  labs(x = "Species",
+       y = "Canopy Width (cm)", 
+       color = "Species") #axis labels
+
+p2 = ggplot(pal_p, aes(height, length)) + #plot canopy length versus height
+  theme_bw() +
+  geom_point(aes(color = species)) + #add scatter plot
+  theme(legend.position = "none") + #remove legend
+  labs(x = "Plant Height (cm)",
+       y = "Canopy Length (cm)") #axis labels
+
+p3 = ggplot(pal_p, aes(species, green_lvs)) + #plot species versus green leaves
+  theme_bw() +
+  geom_boxplot(aes(color = species)) + #add boxplot
+  labs(x = "Species",
+       y = "Number of Green Leaves", 
+       color = "Species") #axis labels
+
+(p1 + p3) / p2 + plot_layout(guides = "collect") + plot_annotation(tag_levels = 'A') #combine plots
+```
 
 
+Based on these exploratory visualizations, canopy width does not seem to different much between species and may not be a good predictor. Green leaves and canopy length, however, seem to have different patterns between species. Plant height also has less differences between species and may or may not be useful as a predictor.
+
+### Binary Logistic Regression
+
+First, I define the formulas and the models.
+
+```{r}
+f1 = species ~ height + length + width + green_lvs #model 1 formula
+m1 = glm(f1, data = palmetto, family = "binomial") #model 1
+
+f2 = species ~ height + width + green_lvs #model 2 formula
+m2 = glm(f2, data = palmetto, family = "binomial") #model 2
+
+pred_acc <- function(x, y) { #prediction accuracy function
+  accurate <- ifelse(x == y, 1, 0)
+  return(mean(accurate, na.rm = TRUE))
+}
+```
+
+Then, I preform ten-fold cross validation using prediction accuracy as the metric in order to determine which model is the best. I also compare AICc.
+
+```{r}
+#cross validation
+set.seed(42)  
+
+n_folds = 10 
+folds = rep(1:n_folds, length.out = nrow(palmetto)) #create a folds vector
+pal_kfold = palmetto %>% #assign each palmetto value to a fold
+  mutate(fold = sample(folds, size = n(), replace = FALSE))
+
+results_df <- data.frame() #holding dataframe
+
+##loop through the folds
+for(i in 1:n_folds) {
+  #get correct testing and training data for each fold
+  kfold_test <- pal_kfold %>%
+    filter(fold == i)
+  kfold_train <- pal_kfold %>%
+    filter(fold != i)
+  
+  #run the models on the training data
+  kfold_m1 <- glm(f1, data = kfold_train, family = 'binomial')
+  kfold_m2 <- glm(f2, data = kfold_train, family = 'binomial')
+  
+  #predict the test values 
+  kfold_pred <- kfold_test %>%
+    mutate(m1 = predict(kfold_m1, kfold_test, type = 'response'),
+           m2 = predict(kfold_m2, ., type = 'response')) %>%
+    mutate(pred1 = ifelse(m1 > 0.50, '2', '1'),
+           pred2 = ifelse(m2 > 0.50, '2', '1'))
+ 
+  #calculate the accuracy
+   kfold_accuracy <- kfold_pred %>%
+    summarize(m1_acc = pred_acc(species, pred1),
+              m2_acc = pred_acc(species, pred2))
+  
+   #append results to the holding dataframe
+  results_df <- bind_rows(results_df, kfold_accuracy)
+}
+
+results_sum = results_df %>% #get the mean accuracy for each model
+  summarize(model1_acc = mean(m1_acc),
+            model2_acc = mean(m2_acc))
+
+AIC = AICcmodavg::aictab(list(m1, m2)) #calculate AIC for each model
+```
+
+
+Model 1 has an accuracy of `r round(results_sum$model1_acc[1],3)`, which is higher than Model 2, which has an accuracy of `r round(results_sum$model2_acc[1],3)`. Therefore, Model 1 is the better model. The AICc values also agree with this with Model 1 (AIC = `r round(AICcmodavg::AICc(m1),2)`) having a much lower AIC than Model 2 (AICc = `r round(AICcmodavg::AICc(m2),2)`). Canopy length is an important predictor to retain in the model.
+
+### Results
+
+
+```{r}
+final_model = glm(f1, data = palmetto, family = "binomial") #train best model on all data
+
+model_results = tidy(final_model) %>% #use broom to get tidy model results
+  kbl(digits = 3, caption = "Table 1. Results of binary logistic regression prediction species from canopy height, length, and width, and number of green leaves. All predictors were signficant. There was a postiive correltation between length and width and being Sabal etonia and negative correlation for green leaves and canopy height.", col.names = c("Term", "Coefficient", "Standard Error", "Z-value", "p-value")) %>% #create table
+  kable_minimal() #change table theme
+
+model_results #print table
+```
+
+```{r}
+model_fitted <- final_model %>%
+  broom::augment(type.predict = "response") %>% #get probabilities
+  select(species, .fitted) %>% 
+  mutate(prediction = case_when(
+    .fitted > .5 ~ 2,
+    .fitted < .5 ~ 1
+  )) %>% #use probabilities to determine species prediction
+  mutate(correct = ifelse(species == prediction, 0, 1)) %>%  #determine how many predictions were correct
+  mutate(species = case_when(
+    species == '1' ~ "Serenoa repens",
+    species == '2' ~ "Sabal etonia",
+  )) #mutate species names for plots to have actual names and not numerics
+
+model_sum = model_fitted %>% 
+  group_by(species) %>% #group by species
+  summarize(num_incorrect = sum(correct), #get number incorrect with sum
+            accuracy = 1 - mean(correct)) %>% #get % accurate with 1 - mean
+  kbl(digits = 2, caption = "Table 2. Number of incorrect predictions and the percent of predictions that were correct for each palmetto species.", col.names = c("Species", "Number Incorrectly Classified", "% Correctly Classified")) %>% #create table
+  kable_minimal() #change table theme
+
+model_sum #print table
+```
+
+### Conclusion 
+
+The model preforms well at predicted both species of palmetto, although it preforms slightly better on *Sabal etonia* compared to *Sernoa repens*. More green green leaves and a taller canopy, but lower canopy height and widths are associated with being *Sernoa repens*.
+
+### Citation
+Abrahamson, W.G. 2019. Survival, growth and biomass estimates of two dominant palmetto species of south-central Florida from 1981 - 2017, ongoing at 5-year intervals ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/f2f96ec76fbbd4b9db431c79a770c4d5
