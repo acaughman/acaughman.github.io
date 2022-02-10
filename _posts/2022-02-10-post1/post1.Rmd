@@ -1,5 +1,5 @@
 ---
-title: "Post 1"
+title: "Post_1"
 description: |
   A short description of the post.
 author:
