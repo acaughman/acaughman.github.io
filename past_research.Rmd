@@ -4,23 +4,23 @@ title: "Past Research Projects"
 
 
 
-## Marine Microbiology
+### Marine Microbiology
 
-### Coral Microbiomes
+#### Coral Microbiomes
 
-Little is known about the stability of coral microbiomes over hourly fluctuations in environmental conditions. For parameters such as temperature and pH, the magnitude of day–night fluctuations can exceed those observed in mean values over seasons, especially on shallow reefs. Such short-term heterogeneity can affect longer term trends, possibly by influencing the extent to which corals acclimate to stress and increase resilience. This study examined diel dynamics of microbiomes (Bacteria and Archaea) in three species of stony coral (Porites lutea, Porites cylindrica, and Pocillopora damicornis) from a shallow reef in Mo’orea (French Polynesia). Both the composition and transcription of microbiome members changed significantly over the diel cycle. Most changes did not exhibit clear diel periodicity but were instead stochastic, a pattern potentially influenced also by microspatial variation within a coral colony. These patterns raise the possibility that ecological functions of the microbiome may vary substantially over hourly timescales, notably between day and night. Further studies are needed to compare temporal change in the coral microbiome with that due to other factors, such as spatial distance within and among colonies.
+Little is known about the stability of coral microbiomes over hourly fluctuations in environmental conditions. For parameters such as temperature and pH, the magnitude of day–night fluctuations can exceed those observed in mean values over seasons, especially on shallow reefs. Such short-term heterogeneity can affect longer term trends, possibly by influencing the extent to which corals acclimate to stress and increase resilience. We found significant, stochastic changes in both the composition and transcription of microbiome members of three coral species over a diel cycle. These patterns raise the possibility that ecological functions of the microbiome may vary substantially over hourly timescales, notably between day and night. Further studies are needed to compare temporal change in the coral microbiome with that due to other factors, such as spatial distance within and among colonies.
 
 
-### Clownfish Microbiomes
+#### Clownfish Microbiomes
 
 Working with Dr. Frank Stewart and Dr. Zoe Pratte at the Georgia Institute of Technology, I collected skin microbiome samples from numerous anemones and clownfish to determine if direct contact affected the skin microbiome. This work was published in 2018 and found that clownfish skin microbiomes shifted significantly when in contact with an anenome, which has implications for how clownfish are able to avoid getting stung by the sea anenomes. 
 
-## **D**iscipline **B**ased **E**ducation **R**esearch
+### **D**iscipline **B**ased **E**ducation **R**esearch (DBER)
 
-### Student's attitudes towards math and CS
+#### Student's attitudes towards math and CS
 
-Quantitative and computational skills are required of 21st-century biologists .It is important to understand how students perceive math and CS subjects and whether those perceptions are linked or operate contradictory to determine instructional best practices. This study 1) determined biology students’ perceptions of math and CS in biological contexts, 2) measured the linkage of those perceptions, and 3) examined additional factors affecting attitudes. Math and CS values exhibited positive correlations, but Utility and Cost were more negative for CS, possibly due to less exposure to CS prior to college, and overall attitudes were influenced by CS Background and Gender. Given these findings, we make educational recommendations for CS and math exposure early, often, and embedded in the biology curriculum. 
+Quantitative and computational skills are required of 21st-century biologists. It is important to understand how students perceive math and CS subjects and whether those perceptions are linked or operate contradictory to determine instructional best practices. We aimed to 1) determine biology students’ perceptions of math and CS in biological contexts, 2) measure the linkage of those perceptions, and 3) examine additional factors affecting attitudes. Math and CS values exhibited positive correlations, but Utility and Cost were more negative for CS, largely made more positive by prior exposure to CS. Given these findings, we make educational recommendations for CS and math exposure early, often, and embedded in the biology curriculum. 
 
-## Other work
+### Other work
 
-While still at the Georgia Institute of Technology, I developed a Swirl Module in R for BIOS 2301, the Ecology Lab at Georgia Tech. This module walks students through analyzing stream health data from the EPA for streams across the United States using descriptive statistics, boxplots, and linear regression in R.
+While still at the Georgia Institute of Technology, I developed a Swirl Module in R for BIOS 2301, for the Ecology Lab at Georgia Tech. This module walks students through analyzing stream health data from the EPA for streams across the United States using descriptive statistics, boxplots, and linear regression in R.

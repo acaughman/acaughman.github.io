@@ -2,21 +2,21 @@
 title: "Current Research Projects"
 ---
 
+### Marine Movement Ecology
 
-## Marine Movement Ecology
+#### Climate change, fishing, and marine protected area affects on marine species movement behavior
 
+Research suggests that marine protected areas (MPAs) select for lower mobility in marine fish, including selects for low movement alleles, increased residency, and decreased home range sizes. While evolving to move less may be useful for conservation efforts and MPA effectiveness in the present, this could be detrimental in the face of climate change which will demand fish to move or die in conditions outside the thermal range they can handle. Here, I will attempt to simulate the combined selection pressures of climate change, fishing, and a MPA. This could have implications for MPA design, and if fishing pressure dominates trait evolution at low degrees of variability, MPAs may not be the best long-term conservation solutions for areas that have low climate variability. 
 
-### Climate change and fishing affects on marine species movement behavior
-
-Recently, however, literature has begun focusing on how MPAs select for specific personality traits in fish populations, largely related to movement (Mee et al., 2017; Parsons et al., 2010; Thorbjørnsen et al., 2021). These papers find that fishing pressure selects for low movement alleles (Mee et al., 2017), increased residency (Parsons et al., 2010), and decreasing home range sizes (Thorbjørnsen et al., 2021). In combination, these all find that fish within MPAs move less than fish outside of MPAs. While evolving to move less may be useful for conservation efforts and MPA effectiveness in the present, this could be detrimental in the face of climate change which will demand fish to move or die in conditions outside the thermal range they can handle. Here, I will expand on a model that examined the change in distribution of a hypothetical low movement trait in fish due to MPAs (Mee et al 2017), by adding elements to simulate the additional selection pressure of climate change. While the genes here are hypothetical, other studies have found a genetic component to fish movement (Alós et al., 2012; Laine et al., 2012; Wright et al., 2006). The objective of this new model is to determine what degree of climate variability a fish within MPAs can withstand before the selection of low movement traits due to fishing pressure is negated. This would have implications for MPA design, and if fishing pressure dominates trait evolution at low degrees of variability, MPAs may not be the best long-term conservation solutions for areas that have low climate variability. 
-
-### Predicting commercially relevant fish species home ranges
+#### Predicting commercially relevant fish species home ranges
 
 I developed a random forest model in order to predict home range values for over 800 species of commercially relevant marine species. Data inputs were generated from an extensive literature review of empirical home range studies. The model was able to predict home range values of species within an order of magnitude almost 90% of the time. This model will be useful in the future for understanding how much space species utilize and for classifying groupings of movement characteristics in future efforts. 
 
 
-## Marine species Habitat Use
+### Marine species Habitat Use
 
-### Using sonar to assess fish densities within kelp aquaculture farms
+#### Using sonar to assess fish densities within kelp aquaculture farms
 
 Similar to natural kelp forests, kelp farms and other forms of aquaculture, such as fish and bivalve farms, increase abundance and diversity of wild species due to habitat and food source provisioning. Given this added structure, we predicted that fish will be attracted to kelp farms in higher abundances than surrounding areas. Here we aim to quantify changes in density of wild fish at and away from kelp farms using sonar surveys in order to determine if aquaculture farms will have a positive effect on wild fish populations.
+
+#### Lobster habitat use in and around marine protected areas
