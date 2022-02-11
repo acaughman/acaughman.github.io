@@ -1,6 +1,6 @@
 ---
 title: "Allie Caughman"
-image: "images/Caughman_Allie_PHD 21_Bren_001.jpg"
+image: "images/AMC_headshot.jpg"
 site: distill::distill_website
 links:
   - label: LinkedIn
