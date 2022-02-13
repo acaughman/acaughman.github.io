@@ -1,10 +1,12 @@
-name: "."
-title: ""
+name: "Allie Caughman"
+title: "Allie Caughman"
 description: |
-  Personal Research Website
+  Personal Academic Website for Allie Caughman
 output_dir: "docs"
 theme: postcards.css
 navbar:
+  logo:
+    image: images/fish.png
   right:
     - text: "Home"
       href: index.html

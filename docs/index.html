@@ -541,7 +541,7 @@
 
 
           /*-- Additional custom styles --*/
-          /* Add any additional CSS rules below                      */
+          /* Add any additional CSS rules below */
 
           @media screen and (min-width: 768px) {
             .container {
@@ -550,6 +550,26 @@
           }
           body {
             background-color: #FFFFFF;
+          }
+
+          .article-banner {
+            width: auto;
+            height: auto;
+            border: 0;
+          }
+
+          img[src="images/banner.JPG"] {
+            border: 0;
+            padding: 0;
+            width: 100%;
+            margin: 100px 25px 0px 0px;
+          }
+
+          img[src="images/logo.png"] {
+            border: 0;
+            padding: 0;
+            width: 100%;
+            margin: 100px 25px 0px 0px;
           }</style>
           <style type="text/css">
           /* base style */
@@ -715,7 +735,10 @@
           <header class="header header--fixed" role="banner">
           <nav class="distill-site-nav distill-site-header">
           <div class="nav-left">
-          <a href="index.html" class="title"></a>
+          <a class="logo">
+          <img src="images/fish.png" alt="Logo"/>
+          </a>
+          <a href="index.html" class="title">Allie Caughman</a>
           </div>
           <div class="nav-right">
           <a href="index.html">Home</a>
