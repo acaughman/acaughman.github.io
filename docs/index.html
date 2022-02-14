@@ -479,7 +479,7 @@
           html {
             /*-- Main font sizes --*/
             --title-size:      50px;
-            --body-size:       1.06rem;
+            --body-size:       1.075rem; /*edited*/
             --code-size:       14px;
             --aside-size:      12px;
             --fig-cap-size:    13px;
@@ -516,8 +516,8 @@
           d-appendix {
             --heading-size:    15px;
             --heading-color:   rgba(0, 0, 0, 0.65);
-            --text-size:       0.8em;
-            --text-color:      rgba(0, 0, 0, 0.5);
+            --text-size:       1.075rem; /*edited*/
+            --text-color:      rgba(0, 0, 0, 0); /*edited*/
           }
 
           /*-- WEBSITE HEADER + FOOTER --*/
@@ -528,26 +528,40 @@
             --text-color:       #00000;
             --text-size:        15px;
             --hover-color:      white;
-            --bkgd-color:       #abd8ea;
-            height:             50px;
+            --bkgd-color:       #abd8ea; /*edited*/
+            height:             50px; /*edited*/
           }
 
           .distill-site-footer {
             --text-color:       #00000;
             --text-size:        15px;
             --hover-color:      white;
-            --bkgd-color:       #abd8ea;
+            --bkgd-color:       #abd8ea;  /*edited*/
           }
 
 
           /*-- Additional custom styles --*/
           /* Add any additional CSS rules below */
 
+          h3 {
+            
+
+          }
+
+          h4 {
+            
+          }
+
+          h5 {
+            
+          }
+
           @media screen and (min-width: 768px) {
             .container {
               width: 768px;
             }
           }
+
           body {
             background-color: #FFFFFF;
           }
@@ -565,11 +579,15 @@
             margin: 100px 25px 0px 0px;
           }
 
-          img[src="images/logo.png"] {
+          .logo {
+            width: auto;
+            height: auto;
             border: 0;
-            padding: 0;
-            width: 100%;
-            margin: 100px 25px 0px 0px;
+          }
+
+          img[src="images/logo.png"] {
+            position: relative;
+            top: -25px;
           }</style>
           <style type="text/css">
           /* base style */
