@@ -1864,13 +1864,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 
 
 
   html {
     /*-- Main font sizes --*/
     --title-size:      50px;
-    --body-size:       1.075rem; /*edited*/
+    --body-size:       15px; /*edited*/
     --code-size:       14px;
     --aside-size:      12px;
     --fig-cap-size:    13px;
@@ -1881,10 +1883,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
+    --heading-font:    'Merriweather', serif;/*edited*/
+    --mono-font:       'Merriweather', serif;/*edited*/
+    --body-font:       'Merriweather', serif; /*edited*/
+    --navbar-font:     'Merriweather', serif; /*edited*/ /* websites + blogs only */
+    --title-font: 'Playfair Display', serif;/*edited*/
     background-color:  #FFFFFF;
   }
 
@@ -1941,11 +1944,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   h4 {
-    
+    --text-size: 18px;
   }
 
   h5 {
-    
+
   }
 
   @media screen and (min-width: 768px) {
