@@ -1,0 +1,79 @@
+---
+title: "Heiarchical Clustering of Santa Barbara LTER Sites by Water Chemistry"
+description: |
+author:
+  - name: Allie Caughman
+    url: {}
+date: 2022-02-27
+output:
+  distill::distill_article:
+    self_contained: false
+    code_folding: hide
+---
+
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+
+library(tidyverse)
+library(here)
+library(dendextend)
+library(ggdendro)
+```
+
+### Overview
+
+Here I will use hierarchical clustering by complete linkage to create a dendrogram showing multivariate clustering for water chemistry by 13 stream sites. The data used contains stream water chemistry measurements taken in Santa Barbara area watersheds, beginning in 2000 (SBC LTER and Melack 2019). These data include 8 chemistry variables that will be used for clustering, the site code, and a time stamp:
+
+* site_code: The stream the sample was collected from
+* timestamp_local: time stamp of sample
+* NH4_uM: Ammonium in micromoles per liter
+* NO3_uM: Nitrate in micromoles per liter
+* PO4_uM: Posphorus in micromoles per liter
+* TDN_uM: Total dissovled phsphorus in micromoles per liter
+* TPC_uM: Total particulate carbon in micromoles per liter
+* TPN_uM: Total particulate phosphorus in micromoles per liter
+* TSS_mg_per_L: Total suspended solids in milligrams per liter
+* Spec_Cond_uS_per_cm: Specific conductivity in micro-Siemens per cm at 25 deg C
+
+
+### Analysis
+
+First, I will read in the SBC LTER Data and summarize the data for each site.
+
+```{r}
+LTER = read_csv(here("data", "sbc_lter_registered_stream_chemistry.csv"), na = "-999") %>%  #read in the data and rename -999 to NA
+  group_by(site_code) %>% 
+  summarize_all(mean, na.rm=TRUE) %>%  #get mean of all columns for each site
+  select(-site_code, -timestamp_local) %>% 
+  scale() 
+```
+
+Then I will calculate the euclidean distance between each site. 
+
+```{r}
+LTER_dist = dist(LTER) #get euclidean distance between sites
+```
+
+Then I will use `hclust()` to preform hierarchical clustering for each site based on its stream chemistry.
+
+```{r}
+LTER_clust = hclust(LTER_dist, method = "complete") #hierarchical clustering
+```
+
+### Results 
+
+```{r,fig.cap = "Figure 1: A dendrogram showing the hierarchical clustering of stream sites in the Santa Barbara Chanel LTER based on stream chemistry."}
+ggdendrogram(LTER_clust) +
+  theme_bw() +
+  labs(x = "Stream Site", y = "Distance")
+```
+
+### Conclusion
+
+* Site 4 is very different from any of the other sites. 
+* Sites 3, 9, and 13 form a small cluster together.
+* Sites 1 and 7 are the most similar sites in the LTER
+
+### Citation:
+Santa Barbara Coastal LTER and J. Melack. 2019. SBC LTER: Land: Stream chemistry in the Santa Barbara Coastal drainage area, ongoing since 2000 ver 16. Environmental Data Initiative. https://doi.org/10.6073/pasta/67a558a24ceed9a0a5bf5e46ab841174

@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-02-27-post2/",
+    "title": "Heiarchical Clustering of Santa Barbara LTER Sites by Water Chemistry",
+    "description": {},
+    "author": [
+      {
+        "name": "Allie Caughman",
+        "url": {}
+      }
+    ],
+    "date": "2022-02-27",
+    "categories": [],
+    "contents": "\r\nOverview\r\nHere I will use hierarchical clustering by complete linkage to create a dendrogram showing multivariate clustering for water chemistry by 13 stream sites. The data used contains stream water chemistry measurements taken in Santa Barbara area watersheds, beginning in 2000 (SBC LTER and Melack 2019). These data include 8 chemistry variables that will be used for clustering, the site code, and a time stamp:\r\nsite_code: The stream the sample was collected from\r\ntimestamp_local: time stamp of sample\r\nNH4_uM: Ammonium in micromoles per liter\r\nNO3_uM: Nitrate in micromoles per liter\r\nPO4_uM: Posphorus in micromoles per liter\r\nTDN_uM: Total dissovled phsphorus in micromoles per liter\r\nTPC_uM: Total particulate carbon in micromoles per liter\r\nTPN_uM: Total particulate phosphorus in micromoles per liter\r\nTSS_mg_per_L: Total suspended solids in milligrams per liter\r\nSpec_Cond_uS_per_cm: Specific conductivity in micro-Siemens per cm at 25 deg C\r\nAnalysis\r\nFirst, I will read in the SBC LTER Data and summarize the data for each site.\r\n\r\n\r\nhide\r\n\r\nLTER = read_csv(here(\"data\", \"sbc_lter_registered_stream_chemistry.csv\"), na = \"-999\") %>%  #read in the data and rename -999 to NA\r\n  group_by(site_code) %>% \r\n  summarize_all(mean, na.rm=TRUE) %>%  #get mean of all columns for each site\r\n  select(-site_code, -timestamp_local) %>% \r\n  scale() \r\n\r\n\r\n\r\nThen I will calculate the euclidean distance between each site.\r\n\r\n\r\nhide\r\n\r\nLTER_dist = dist(LTER) #get euclidean distance between sites\r\n\r\n\r\n\r\nThen I will use hclust() to preform hierarchical clustering for each site based on its stream chemistry.\r\n\r\n\r\nhide\r\n\r\nLTER_clust = hclust(LTER_dist, method = \"complete\") #hierarchical clustering\r\n\r\n\r\n\r\nResults\r\n\r\n\r\nhide\r\n\r\nggdendrogram(LTER_clust) +\r\n  theme_bw() +\r\n  labs(x = \"Stream Site\", y = \"Distance\")\r\n\r\n\r\n\r\n\r\nFigure 1: Figure 1: A dendrogram showing the hierarchical clustering of stream sites in the Santa Barbara Chanel LTER based on stream chemistry.\r\n\r\n\r\n\r\nConclusion\r\nSite 4 is very different from any of the other sites.\r\nSites 3, 9, and 13 form a small cluster together.\r\nSites 1 and 7 are the most similar sites in the LTER\r\nCitation:\r\nSanta Barbara Coastal LTER and J. Melack. 2019. SBC LTER: Land: Stream chemistry in the Santa Barbara Coastal drainage area, ongoing since 2000 ver 16. Environmental Data Initiative. https://doi.org/10.6073/pasta/67a558a24ceed9a0a5bf5e46ab841174\r\n\r\n\r\n\r\n",
+    "preview": "posts/2022-02-27-post2/post2_files/figure-html5/unnamed-chunk-4-1.png",
+    "last_modified": "2022-02-27T13:35:32-08:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-02-10-post1/",
     "title": "Predicting Palmetto Species using Binary Logistic Regression",
     "description": {},
