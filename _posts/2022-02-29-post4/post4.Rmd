@@ -1,0 +1,150 @@
+---
+title: "Visualizing Salmon Populations over time in the Wilamette River"
+description: |
+author:
+  - name: Allie Caughman
+    url: {}
+date: 2022-02-28
+output:
+  distill::distill_article:
+    self_contained: false
+    code_folding: hide
+---
+
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+
+library(tidyverse)
+library(lubridate)
+library(patchwork)
+library(tsibble)
+library(feasts)
+```
+
+### Overview
+
+!["juvenile steelhead", by Michael Blouin, Oregon State University](steelhead.jpg)
+
+This report will investigate changes in three salmon species, the Coho, Jack Coho, and Steelhead, over time in the Willamette River at Willamette Falls. This data set includes the date for each count, counts for each species that move through the fish ladder, as well as water temperature.
+
+Here, I will investigate how populations change through time overall, how consistent patterns are each year, and how overall population counts in each year change over time.
+
+### Citation
+
+Columbia River Research DART *adult fish passage recorded from 2001-01-01 to 2010-12-31 at the Willamette Falls fish ladder on the Willamette River (Oregon)* http://www.cbr.washington.edu/dart/query/adult_graph_text
+
+
+```{r}
+### Read and wrangle in Data
+fish_series = read_csv(here::here("data", "willamette_fish_passage.csv")) %>% 
+  janitor::clean_names() %>%  #lowercase names
+  select(date, coho, jack_coho, steelhead) %>%  #select rows of interest
+  mutate(coho = case_when(
+    is.na(coho) ~ 0,
+    !is.na(coho) ~ coho
+  )) %>% #replace NAs with 0
+   mutate(jack_coho = case_when(
+    is.na(jack_coho) ~ 0,
+    !is.na(jack_coho) ~ jack_coho
+  )) %>% #replace NAs with 0
+   mutate(steelhead = case_when(
+    is.na(steelhead) ~ 0,
+    !is.na(steelhead) ~ steelhead
+  )) %>%  #replace NAs with 0
+  mutate(date = mdy(date))  %>% #convert date to date class
+  as_tsibble(key = NULL, index = date) %>%   #convert to tsibble
+  mutate(year = year(date)) #get year
+```
+
+
+### Original time series
+
+
+```{r}
+p1 = ggplot(data = fish_series) +
+  geom_line(aes(x = date, y = coho), color = "lightblue") + #plot coho with light blue
+  theme_bw() + labs(x = "Date", y = "Coho Population") #edit theme
+
+p2 = ggplot(data = fish_series) +
+  geom_line(aes(x = date, y = jack_coho), color = "blue") + #plot jack coho with blue
+  theme_bw() + labs(x = "Date", y = "Jack Coho Population") #edit theme
+  
+p3 = ggplot(data = fish_series) +
+  geom_line(aes(x = date, y = steelhead), color = "darkblue") + #plot steelhead with dark blue
+  theme_bw() + labs(x = "Date", y = "Steelhead Population") #edit theme
+```
+
+```{r,fig.cap="Figure 1. Time series of Coho, Jack Coho, and Steelhead Populations from 2001 to 2010"}
+p1 / p2 / p3  #combine figures
+```
+
+* Steelhead populations are larger for longer periods of the year than Coho and Jack Coho
+
+* Coho have the largest population sizes at their max
+
+* Coho populations appear to be increasing with time, while Jack Coho and Steelhead populations remain more consistent at their peaks
+
+### Seasonplots
+
+
+```{r}
+p1 = fish_series %>% 
+  gg_season(y = coho, pal = (scales::hue_pal(h = c(180, 270)))(10)) + #plot coho by season
+  theme_bw() + labs(x = "Date", y = "Coho Population")#edit theme
+
+p2 = fish_series %>% 
+  gg_season(y = jack_coho, pal = (scales::hue_pal(h = c(180, 270)))(10)) + #plot jack coho by season
+  theme_bw() + labs(x = "Date", y = "Jack Coho Population")#edit theme
+
+p3 = fish_series %>% 
+  gg_season(y = steelhead, pal = (scales::hue_pal(h = c(180, 270)))(10)) + #plot steelhead by season
+  theme_bw() + labs(x = "Date", y = "Steehead Population") #edit theme
+```
+
+
+```{r, fig.cap="Figure 2. Coho, Jack Coho, and Steelhead population sizes across seasons for 2001 - 2010"}
+p1 / p2 / p3 + plot_layout(guides = "collect") #combine plots
+```
+
+* Coho and Jack Coho are largely present during the fall months, peaking in October
+
+* Steelhead are present in high levels through the spring and summer months
+
+* Trends are each species are relatively consistent across years
+
+### Annual counts by species
+
+```{r}
+fish_counts = fish_series %>% 
+  index_by(year) %>% #index by year
+  summarize(coho_count = sum(coho),
+            jack_coho_count = sum(jack_coho),
+            steelhead_count = sum(steelhead)) %>%  #sum counts of fish in each year
+  pivot_longer(cols = c("coho_count", "jack_coho_count", "steelhead_count"),
+               names_to = "species",
+               values_to = "count") %>% #combine all counts into one column
+  mutate(species = case_when(
+    species == "coho_count" ~ "Coho",
+    species == "jack_coho_count" ~ "Jack Coho",
+    species == "steelhead_count" ~ "Steelhead" #rename species correctly
+  )) %>% 
+  as.data.frame() %>% 
+  mutate(year = as.factor(year)) %>%  #convert year to factor
+  mutate(species = as.factor(species))
+```
+
+
+```{r, fig.cap="Figure 3. Coho, Jack Coho, and Steelhead population counts in 2001 - 2010"}
+ggplot(data = fish_counts, aes(x = year, y = count)) +
+  geom_col(aes(fill = species, group=species),position="dodge") + #create grouped bar chart
+  theme_bw() + labs(x = "Year", y = "Population Count", fill = "Fish Species") + #edit theme
+  coord_flip() +
+  scale_fill_manual(values = c("lightblue", "blue", "darkblue"))
+```
+
+* Coho populations have increased over time
+
+* Steelhead populations appear to be decreasing slightly
+
+* Populations of Jack Coho have remained at relatively consistent levels from 2001 to 2010 
