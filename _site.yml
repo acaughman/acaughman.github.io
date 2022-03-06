@@ -5,8 +5,6 @@ description: |
 output_dir: "docs"
 theme: postcards.css
 navbar:
-  logo:
-    image: images/fish.png
   right:
     - text: "Home"
       href: index.html
