@@ -2,17 +2,15 @@
 title: "Allie Caughman"
 image: "images/AMC_headshot.jpg"
 site: distill::distill_website
-links:
-  - label: LinkedIn
-    url: "https://www.linkedin.com/in/allie-c-37a696102/"
+links:  
+  - label: CV
+    url: "https://drive.google.com/file/d/1nG1jgODdWud2oSXN8vlXFFT3G3lskEoy/view?usp=sharing"
   - label: Twitter
     url: "https://twitter.com/allie_amc"
   - label: GitHub
     url: "https://github.com/acaughman"
   - label: Google Scholar
     url: "https://scholar.google.com/citations?user=Yl1doQQAAAAJ&hl=en"
-  - label: CV
-    url: "https://drive.google.com/file/d/1xvH-WGVuFXY_2GYHFAJwb5jhUTv8koau/view?usp=sharing"
 output:
   postcards::solana
 ---
