@@ -10,7 +10,7 @@ Research suggests that marine protected areas (MPAs) select for lower mobility i
 
 #### Predicting commercially relevant fish species home ranges
 
-I developed a random forest model in order to predict home range values for over 800 species of commercially relevant marine species. Data inputs were generated from an extensive literature review of empirical home range studies. The model was able to predict home range values of species within an order of magnitude almost 90% of the time. This model will be useful in the future for understanding how much space species utilize and for classifying groupings of movement characteristics in future efforts. 
+I developed a random forest model in order to predict home range and pelagic larval duration values for over 800 species of commercially relevant marine species. Data inputs were generated from an extensive literature review of empirical home range studies. The model was able to predict home range values of species within an order of magnitude almost 90% of the time. This model will be useful in the future for understanding how much space species utilize and for classifying groupings of movement characteristics in future efforts. 
 
 
 ### Marine species Habitat Use
