@@ -5,11 +5,16 @@ title: "Publications"
 ### Peer Reviewed Journals
 
 1.	**Caughman AM**, Pratte ZA, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. doi:10.1007/s00338-021-02097-8 *Caughman and Pratte co-first authors
-2.	Pratte ZA, Patin NV, McWhirt ME, *Caughman AM*, Parris DJ, Stewart FJ. 2018. Association with a sea anemone alters the skin microbiome of clownfish. Coral Reefs. 37(4):1119-1125. doi:10.1007/s00338-018-01750-z
+2.	Pratte ZA, Patin NV, McWhirt ME, **Caughman AM**, Parris DJ, Stewart FJ. 2018. Association with a sea anemone alters the skin microbiome of clownfish. Coral Reefs. 37(4):1119-1125. doi:10.1007/s00338-018-01750-z
 
 ### In Review
 
 1. **Caughman AM**, Weigel EG. Biology students’ math and computer science task values are closely linked. In Review at CBE – Life Sciences Education.
+
+### In Prep
+
+1. Bradley D, **Caughman AM**, Fogg S, Cabral RB, Mayorga J, Goodell W, White TD. Observed and estimated home ranges for fished marine species globally. For submission to Scientific Data  
+2. Cabral, RB, …, **Caughman AM**, ... et al. A global network of marine protected areas for dive tourism.
 
 ### Other Publications and Creative Products
  
