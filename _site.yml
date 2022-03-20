@@ -20,10 +20,5 @@ navbar:
           href: field_work.html
     - text: "Publications"
       href: publications.html
-    - text: "Blog"
-      href: blog.html
   search: false
 output: distill::distill_article
-collections:
-  posts:
-    citations: false
