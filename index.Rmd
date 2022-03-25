@@ -15,9 +15,17 @@ output:
   postcards::solana
 ---
 
+:::: {style="display: flex;"}
+
+::: {}
+
 I am a PhD student in the [Bren School of Environmental Science and Management](https://bren.ucsb.edu/) at the University of California, Santa Barbara advised by [Steve Gaines](https://bren.ucsb.edu/people/steve-gaines) and [Darcy Bradley](https://www.darcybradley.com/). 
 
 I am interested in the intersection of marine animal movement ecology, conservation, and data science. I hope to further understanding how animals move in response to climate change and other pressures in order to best direct conservation efforts for important species and habitats. I am particularly interested in mobile marine predators. I am currently supported by the National Science Foundation Graduate Research Fellows Program.
+
+:::
+
+::: {}
 
 ##### Education
 
@@ -28,3 +36,7 @@ Ph.D Student in Environmental Science and Management | University of California,
 ##### Contact
 
 Email: acaughman@bren.ucsb.edu
+
+:::
+
+::::
