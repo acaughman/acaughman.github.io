@@ -4,7 +4,7 @@ title: "Publications"
 
 ### Peer Reviewed Journals
 
-1.	**Caughman AM**, Pratte ZA, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. doi:10.1007/s00338-021-02097-8 *Caughman and Pratte co-first authors
+1.	**Caughman AM^**, Pratte ZA^, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. doi:10.1007/s00338-021-02097-8 ^Caughman and Pratte co-first authors
 2.	Pratte ZA, Patin NV, McWhirt ME, **Caughman AM**, Parris DJ, Stewart FJ. 2018. Association with a sea anemone alters the skin microbiome of clownfish. Coral Reefs. 37(4):1119-1125. doi:10.1007/s00338-018-01750-z
 
 ### In Review
