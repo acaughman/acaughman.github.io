@@ -4,7 +4,7 @@ image: "images/AMC_headshot.jpg"
 site: distill::distill_website
 links:  
   - label: CV
-    url: "https://drive.google.com/file/d/1nG1jgODdWud2oSXN8vlXFFT3G3lskEoy/view?usp=sharing"
+    url: "https://drive.google.com/file/d/1HtDadS7wM5FKXu1PB8Kvz3O-B1taQ_T9/view?usp=sharing"
   - label: Twitter
     url: "https://twitter.com/allie_amc"
   - label: GitHub
