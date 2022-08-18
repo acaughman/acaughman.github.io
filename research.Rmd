@@ -11,13 +11,3 @@ Research suggests that marine protected areas (MPAs) select for lower mobility i
 #### Predicting commercially relevant fish species movement traits
 
 I developed a random forest model in order to predict home range and pelagic larval duration values for over 800 species of commercially relevant marine species. Data inputs were generated from an extensive literature review of empirical home range studies. The model was able to predict home range values of species within an order of magnitude almost 90% of the time. This model will be useful in the future for understanding how much space species utilize and for classifying groupings of movement characteristics in future efforts. 
-
-### Marine species Habitat Use
-
-#### Lobster habitat use in and around marine protected areas
-
-This study addresses mechanisms driving spillover (animal movement from within a marine protected area (MPA) into a fished area) of the California spiny lobster within the Campus Point State Marine Conservation Area (SMCA). The Santa Barbara Channel Long-Term Ecological Research program has conducted annual surveys of lobster abundance within the Campus Point SMCA since 2012. While these efforts have demonstrated long-term increases in lobster abundance within the MPA, they do not consider changes in lobster abundance immediately outside of the reserve or relative to habitat configuration. To understand how habitat influences lobster spillover, we will extend the current sampling in multiple locations in and around the MPA. Measuring the changes in lobster abundances within and adjacent to the reserve will allow us to quantify the fishery benefits provided by the MPA and provide recommendations for future MPA design to maximize such benefits.
-
-#### Using sonar to assess fish densities within kelp aquaculture farms
-
-Similar to natural kelp forests, kelp farms and other forms of aquaculture, such as fish and bivalve farms, increase abundance and diversity of wild species due to habitat and food source provisioning. Given this added structure, we predicted that fish will be attracted to kelp farms in higher abundances than surrounding areas. Here we aim to quantify changes in density of wild fish at and away from kelp farms using sonar surveys in order to determine if aquaculture farms will have a positive effect on wild fish populations.
