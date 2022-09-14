@@ -22,9 +22,11 @@ The first goal of this project is to examine the relationship between adult move
 
 Marine protected areas (MPAs) are important tools for species conservation, with the potential to also benefit fisheries. By restricting local extractive activities, MPAs can lead to increased populations within reserve borders. These increases can benefit nearby fisheries via spillover, when the movement of larvae or adults extends outside of reserve borders to areas which are exposed to fishing. However, spillover is dependent on a range of factors, particularly the spatial design of the MPA. Scientific guidelines for designing MPAs have existed for over two decades, and include considerations for size, shape, spacing, and protecting key representative habitats. However, few studies have examined how the configuration of these habitats relative to MPA boundaries may influence MPA benefits and spillover. Habitats provide many essential services, including food and shelter. When MPAs are designed such that habitats extend across the boundaries, this continuous physical structure may provide a corridor that facilitates animal movement outside of the protected area, increasing spillover and providing benefits to fisheries. Conversely, when MPA borders are isolated from habitat, movement may be restricted, providing greater conservation benefits as organisms are less likely to exit the MPA. I hope to answer this question by developing a simulation model to determine how spillover changes based on habitat continuity at the MPA borders.
 
+
 ### Fishery Stocks and Climate Change
 
 #### Determining boundaries globally for fish stocks
 
 The goal of this project is to build a global spatial database of fish stock boundaries and management boundaries.
+
 
