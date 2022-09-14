@@ -15,7 +15,7 @@ title: "Publications"
 
 ### Other Publications and Creative Products
  
-1.	**Caughman, A**., Alexander, K., Munster, K. 2022. Visualizing Commercially Relevant Fish Home Ranges. https://emlab-ucsb.shinyapps.io/fish_homeranges/
+1.	**Caughman, A**., Alexander, K., Munster, K. 2022. Visualizing Commercially Relevant Fish Home Range Sizes. https://emlab-ucsb.shinyapps.io/fish_homeranges/
 2.	**Caughman A**., Weigel EG. 2021. Investigating human impacts on Southeastern US stream ecology using R. QUBES Educational Resources. doi:10.25334/P995-7G91
 3.	**Caughman AM**. 2020. Variation in Coral Microbiome Composition and Transcriptional Activity of Three Corals over Diel Cycles [bachelor’s thesis]. Georgia Institute of Technology
 
