@@ -10,7 +10,8 @@ title: "Publications"
 
 ### In Prep
 
-1. Bradley D, **Caughman AM**, Fogg S, Cabral RB, Mayorga J, Goodell W, White TD. Observed and estimated home ranges for fished marine species globally. For submission to Scientific Data  
+1. Bradley D^, **Caughman AM^**, Fogg S, Cabral RB, Mayorga J, Goodell W, White TD. Observed and estimated home ranges for fished marine species globally. For submission to Scientific Data
+^Bradley and Caughman co-first authors
 2. Cabral, RB, …, **Caughman AM**, ... et al. A global network of marine protected areas for dive tourism.
 
 ### Other Publications and Creative Products
