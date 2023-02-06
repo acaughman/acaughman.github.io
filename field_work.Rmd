@@ -3,11 +3,6 @@ title: "Field Work"
 image: "moorea1.jpg"
 ---
 
-#### Santa Barbara Channel LTER
-
-Starting during the summer of 2022, I will be participating in an acoustic telemetry study tagging lobster off the coast of Santa Barbara in the SBC LTER. The goal is to use movement data to test ecological theory about habitat use and animal movement.
-
-
 #### Mo'orea Coral Reef LTER
 |                             |                             |
 |---------------------------- |---------------------------- |
