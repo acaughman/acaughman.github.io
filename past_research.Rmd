@@ -8,7 +8,6 @@ title: "Past Research Projects"
 
 Little is known about the stability of coral microbiomes over hourly fluctuations in environmental conditions. For parameters such as temperature and pH, the magnitude of day–night fluctuations can exceed those observed in mean values over seasons, especially on shallow reefs. Such short-term heterogeneity can affect longer term trends, possibly by influencing the extent to which corals acclimate to stress and increase resilience. We found significant, stochastic changes in both the composition and transcription of microbiome members of three coral species over a diel cycle. These patterns raise the possibility that ecological functions of the microbiome may vary substantially over hourly timescales, notably between day and night. Further studies are needed to compare temporal change in the coral microbiome with that due to other factors, such as spatial distance within and among colonies.
 
-
 #### Clownfish Microbiomes
 
 Working with Dr. Frank Stewart and Dr. Zoe Pratte at the Georgia Institute of Technology, I collected skin microbiome samples from numerous anemones and clownfish to determine if direct contact affected the skin microbiome. This work was published in 2018 and found that clownfish skin microbiomes shifted significantly when in contact with an anenome, which has implications for how clownfish are able to avoid getting stung by the sea anenomes. 

@@ -8,25 +8,22 @@ title: "Current Research Projects"
 
 Research suggests that marine protected areas (MPAs) select for lower mobility in marine fish, including selects for low movement alleles, increased residency, and decreased home range sizes. While evolving to move less may be useful for conservation efforts and MPA effectiveness in the present, this could be detrimental in the face of climate change which will demand fish to move or die in conditions outside the thermal range they can handle. Here, I will attempt to simulate the combined selection pressures of climate change, fishing, and a MPA. This could have implications for MPA design, and if fishing pressure dominates trait evolution at low degrees of variability, MPAs may not be the best long-term conservation solutions for areas that have low climate variability. 
 
+#### Understanding the roles adult movement and larval disperal for conservation and climate change
+
+The first goal of this project is to characterize and model the relationship between adult movement rates and larval pelagic larval duration (PLD). This will be completed by an undergraduate I will mentor. Following this, I hope to use these relationships to build an understanding of 1) best conservation strategize for different movement combinations and 2) the ability of species with different movement combinations to track climate change.
+
 #### Predicting commercially relevant fish species movement traits
 
 I developed a random forest model in order to predict home range and pelagic larval duration values for over 800 species of commercially relevant marine species. Data inputs were generated from an extensive literature review of empirical home range studies. The model was able to predict home range values of species within an order of magnitude almost 90% of the time. This model will be useful in the future for understanding how much space species utilize and for classifying groupings of movement characteristics in future efforts. 
-
-### Incorporating adult movement and larval disperal into movement models
-
-The first goal of this project is to examine the relationship between adult movement rates and larval pelagic larval duration (PLD). This will be completed by an undergraduate I will mentor. Following this, I hope to use these relationships to build and understanding of which MPA designs best cater to different combinations of adult and larval dispersal parameters in order to better understand how different protections will help differnt species.
 
 ### Habitat Use
 
 #### Habitat Continuity at MPA boundaries and Spillover
 
-Marine protected areas (MPAs) are important tools for species conservation, with the potential to also benefit fisheries. By restricting local extractive activities, MPAs can lead to increased populations within reserve borders. These increases can benefit nearby fisheries via spillover, when the movement of larvae or adults extends outside of reserve borders to areas which are exposed to fishing. However, spillover is dependent on a range of factors, particularly the spatial design of the MPA. Scientific guidelines for designing MPAs have existed for over two decades, and include considerations for size, shape, spacing, and protecting key representative habitats. However, few studies have examined how the configuration of these habitats relative to MPA boundaries may influence MPA benefits and spillover. Habitats provide many essential services, including food and shelter. When MPAs are designed such that habitats extend across the boundaries, this continuous physical structure may provide a corridor that facilitates animal movement outside of the protected area, increasing spillover and providing benefits to fisheries. Conversely, when MPA borders are isolated from habitat, movement may be restricted, providing greater conservation benefits as organisms are less likely to exit the MPA. I hope to answer this question by developing a simulation model to determine how spillover changes based on habitat continuity at the MPA borders.
+Marine protected areas (MPAs) are important tools for species conservation, with the potential to also benefit fisheries. By restricting local extractive activities, MPAs can lead to increased populations within reserve borders. These increases can benefit nearby fisheries via spillover, when the movement of larvae or adults extends outside of reserve borders to areas which are exposed to fishing. However, spillover is dependent on a range of factors, particularly the spatial design of the MPA. Scientific guidelines for designing MPAs have existed for over two decades, and include considerations for size, shape, spacing, and protecting key representative habitats. However, few studies have examined how the configuration of these habitats relative to MPA boundaries may influence MPA benefits and spillover. Habitats provide many essential services, including food and shelter. When MPAs are designed such that habitats extend across the boundaries, this continuous physical structure may provide a corridor that facilitates animal movement outside of the protected area, increasing spillover and providing benefits to fisheries. Conversely, when MPA borders are isolated from habitat, movement may be restricted, providing greater conservation benefits as organisms are less likely to exit the MPA.
 
-
-### Fishery Stocks and Climate Change
+### Fisheries and Climate Change
 
 #### Determining boundaries globally for fish stocks
 
-The goal of this project is to build a global spatial database of fish stock boundaries and management boundaries.
-
-
+The goal of this project is to build a global spatial database of management boundaries for a number of countries and regional fishery management organizations. I hope to use these boundaries to inform the success of fisheries management, such as marine protected areas, within these different management schemes.
