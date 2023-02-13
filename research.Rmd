@@ -2,7 +2,7 @@
 title: "Current Research Projects"
 ---
 
-### Marine Movement Ecology
+### Marine Movement Ecology and Conservation
 
 #### Eco-evolutionary implications for MPA effectivness in climate change
 
@@ -16,11 +16,17 @@ The first goal of this project is to characterize and model the relationship bet
 
 I developed a random forest model in order to predict home range and pelagic larval duration values for over 800 species of commercially relevant marine species. Data inputs were generated from an extensive literature review of empirical home range studies. The model was able to predict home range values of species within an order of magnitude almost 90% of the time. This model will be useful in the future for understanding how much space species utilize and for classifying groupings of movement characteristics in future efforts. 
 
-### Habitat Use
+### Habitat Use and Distributions
 
 #### Habitat Continuity at MPA boundaries and Spillover
 
 Marine protected areas (MPAs) are important tools for species conservation, with the potential to also benefit fisheries. By restricting local extractive activities, MPAs can lead to increased populations within reserve borders. These increases can benefit nearby fisheries via spillover, when the movement of larvae or adults extends outside of reserve borders to areas which are exposed to fishing. However, spillover is dependent on a range of factors, particularly the spatial design of the MPA. Scientific guidelines for designing MPAs have existed for over two decades, and include considerations for size, shape, spacing, and protecting key representative habitats. However, few studies have examined how the configuration of these habitats relative to MPA boundaries may influence MPA benefits and spillover. Habitats provide many essential services, including food and shelter. When MPAs are designed such that habitats extend across the boundaries, this continuous physical structure may provide a corridor that facilitates animal movement outside of the protected area, increasing spillover and providing benefits to fisheries. Conversely, when MPA borders are isolated from habitat, movement may be restricted, providing greater conservation benefits as organisms are less likely to exit the MPA.
+
+#### Optimizing MPA networks to species current and future distributions
+
+Marine protected areas (MPAs) are a common method for species conservation. However,
+climate change threatens the goals of many MPAs and leads to a need to design climate resilient
+MPAs. Here, I plan to create a framework that takes a species forward approach by looking for areas of overlap in current and predicted future distributions for species in order to determine MPA locations. This framework will use an optimization technique that allows for additional information of interest to be used in network determination.
 
 ### Fisheries and Climate Change
 
