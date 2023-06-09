@@ -4,32 +4,33 @@ title: "Current Research Projects"
 
 ### Marine Movement Ecology and Conservation
 
-#### Eco-evolutionary implications for MPA effectivness in climate change
+#### Interactions between protection and in climate change
 
-Research suggests that marine protected areas (MPAs) select for lower mobility in marine fish, including selects for low movement alleles, increased residency, and decreased home range sizes. While evolving to move less may be useful for conservation efforts and MPA effectiveness in the present, this could be detrimental in the face of climate change which will demand fish to move or die in conditions outside the thermal range they can handle. Here, I will attempt to simulate the combined selection pressures of climate change, fishing, and a MPA. This could have implications for MPA design, and if fishing pressure dominates trait evolution at low degrees of variability, MPAs may not be the best long-term conservation solutions for areas that have low climate variability. 
+Much is still not understood 
 
-#### Understanding the roles adult movement and larval disperal for conservation and climate change
+#### Understanding the role adult movement and larval disperal in MPA effectivness
 
-The first goal of this project is to characterize and model the relationship between adult movement rates and larval pelagic larval duration (PLD). This will be completed by an undergraduate I will mentor. Following this, I hope to use these relationships to build an understanding of 1) best conservation strategize for different movement combinations and 2) the ability of species with different movement combinations to track climate change.
 
-#### Predicting commercially relevant fish species movement traits
 
-I developed a random forest model in order to predict home range and pelagic larval duration values for over 800 species of commercially relevant marine species. Data inputs were generated from an extensive literature review of empirical home range studies. The model was able to predict home range values of species within an order of magnitude almost 90% of the time. This model will be useful in the future for understanding how much space species utilize and for classifying groupings of movement characteristics in future efforts. 
+#### Machine Learning in Movement Ecology
+
+
 
 ### Species Habitat Use and Distributions
 
 #### Habitat Continuity at MPA boundaries and Spillover
 
-Marine protected areas (MPAs) are important tools for species conservation, with the potential to also benefit fisheries. By restricting local extractive activities, MPAs can lead to increased populations within reserve borders. These increases can benefit nearby fisheries via spillover, when the movement of larvae or adults extends outside of reserve borders to areas which are exposed to fishing. However, spillover is dependent on a range of factors, particularly the spatial design of the MPA. Scientific guidelines for designing MPAs have existed for over two decades, and include considerations for size, shape, spacing, and protecting key representative habitats. However, few studies have examined how the configuration of these habitats relative to MPA boundaries may influence MPA benefits and spillover. Habitats provide many essential services, including food and shelter. When MPAs are designed such that habitats extend across the boundaries, this continuous physical structure may provide a corridor that facilitates animal movement outside of the protected area, increasing spillover and providing benefits to fisheries. Conversely, when MPA borders are isolated from habitat, movement may be restricted, providing greater conservation benefits as organisms are less likely to exit the MPA.
 
-#### Optimizing MPA networks to species current and future distributions
 
-Marine protected areas (MPAs) are a common method for species conservation. However,
-climate change threatens the goals of many MPAs and leads to a need to design climate resilient
-MPAs. Here, I plan to create a framework that takes a species forward approach by looking for areas of overlap in current and predicted future distributions for species in order to determine MPA locations. This framework will use an optimization technique that allows for additional information of interest to be used in network determination.
+#### Understanding the role of adult movement and larval dispersal in climate tracking
 
-### Fisheries and Climate Change
+
+
+### Fisheries 
 
 #### Determining boundaries globally for fish stocks
 
-The goal of this project is to build a global spatial database of management boundaries for a number of countries and regional fishery management organizations. I hope to use these boundaries to inform the success of fisheries management, such as marine protected areas, within these different management schemes.
+The goal of this project is to build a global spatial database of management boundaries for all countries and regional fishery management organizations (This is under contract for Mola Mola Analytics and FishSource). I hope to use these boundaries to inform fisheries management, such as determined the success of marine protected areas within these different management schemes.
+
+#### Maching learning and Fisheries
+

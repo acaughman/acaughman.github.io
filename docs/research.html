@@ -455,8 +455,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
@@ -526,6 +526,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1598,15 +1599,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2174,7 +2181,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2236,89 +2243,22 @@ Research
 
 
 <div class="d-article">
-<h3 id="marine-movement-ecology-and-conservation">Marine Movement
-Ecology and Conservation</h3>
-<h4
-id="eco-evolutionary-implications-for-mpa-effectivness-in-climate-change">Eco-evolutionary
-implications for MPA effectivness in climate change</h4>
-<p>Research suggests that marine protected areas (MPAs) select for lower
-mobility in marine fish, including selects for low movement alleles,
-increased residency, and decreased home range sizes. While evolving to
-move less may be useful for conservation efforts and MPA effectiveness
-in the present, this could be detrimental in the face of climate change
-which will demand fish to move or die in conditions outside the thermal
-range they can handle. Here, I will attempt to simulate the combined
-selection pressures of climate change, fishing, and a MPA. This could
-have implications for MPA design, and if fishing pressure dominates
-trait evolution at low degrees of variability, MPAs may not be the best
-long-term conservation solutions for areas that have low climate
-variability.</p>
-<h4
-id="understanding-the-roles-adult-movement-and-larval-disperal-for-conservation-and-climate-change">Understanding
-the roles adult movement and larval disperal for conservation and
-climate change</h4>
-<p>The first goal of this project is to characterize and model the
-relationship between adult movement rates and larval pelagic larval
-duration (PLD). This will be completed by an undergraduate I will
-mentor. Following this, I hope to use these relationships to build an
-understanding of 1) best conservation strategize for different movement
-combinations and 2) the ability of species with different movement
-combinations to track climate change.</p>
-<h4
-id="predicting-commercially-relevant-fish-species-movement-traits">Predicting
-commercially relevant fish species movement traits</h4>
-<p>I developed a random forest model in order to predict home range and
-pelagic larval duration values for over 800 species of commercially
-relevant marine species. Data inputs were generated from an extensive
-literature review of empirical home range studies. The model was able to
-predict home range values of species within an order of magnitude almost
-90% of the time. This model will be useful in the future for
-understanding how much space species utilize and for classifying
-groupings of movement characteristics in future efforts.</p>
-<h3 id="species-habitat-use-and-distributions">Species Habitat Use and
-Distributions</h3>
-<h4 id="habitat-continuity-at-mpa-boundaries-and-spillover">Habitat
-Continuity at MPA boundaries and Spillover</h4>
-<p>Marine protected areas (MPAs) are important tools for species
-conservation, with the potential to also benefit fisheries. By
-restricting local extractive activities, MPAs can lead to increased
-populations within reserve borders. These increases can benefit nearby
-fisheries via spillover, when the movement of larvae or adults extends
-outside of reserve borders to areas which are exposed to fishing.
-However, spillover is dependent on a range of factors, particularly the
-spatial design of the MPA. Scientific guidelines for designing MPAs have
-existed for over two decades, and include considerations for size,
-shape, spacing, and protecting key representative habitats. However, few
-studies have examined how the configuration of these habitats relative
-to MPA boundaries may influence MPA benefits and spillover. Habitats
-provide many essential services, including food and shelter. When MPAs
-are designed such that habitats extend across the boundaries, this
-continuous physical structure may provide a corridor that facilitates
-animal movement outside of the protected area, increasing spillover and
-providing benefits to fisheries. Conversely, when MPA borders are
-isolated from habitat, movement may be restricted, providing greater
-conservation benefits as organisms are less likely to exit the MPA.</p>
-<h4
-id="optimizing-mpa-networks-to-species-current-and-future-distributions">Optimizing
-MPA networks to species current and future distributions</h4>
-<p>Marine protected areas (MPAs) are a common method for species
-conservation. However, climate change threatens the goals of many MPAs
-and leads to a need to design climate resilient MPAs. Here, I plan to
-create a framework that takes a species forward approach by looking for
-areas of overlap in current and predicted future distributions for
-species in order to determine MPA locations. This framework will use an
-optimization technique that allows for additional information of
-interest to be used in network determination.</p>
-<h3 id="fisheries-and-climate-change">Fisheries and Climate Change</h3>
-<h4 id="determining-boundaries-globally-for-fish-stocks">Determining
-boundaries globally for fish stocks</h4>
-<p>The goal of this project is to build a global spatial database of
-management boundaries for a number of countries and regional fishery
-management organizations. I hope to use these boundaries to inform the
-success of fisheries management, such as marine protected areas, within
-these different management schemes.</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h3 id="marine-movement-ecology-and-conservation">Marine Movement Ecology and Conservation</h3>
+<h4 id="eco-evolutionary-implications-for-mpa-effectivness-in-climate-change">Eco-evolutionary implications for MPA effectivness in climate change</h4>
+<p>Research suggests that marine protected areas (MPAs) select for lower mobility in marine fish, including selects for low movement alleles, increased residency, and decreased home range sizes. While evolving to move less may be useful for conservation efforts and MPA effectiveness in the present, this could be detrimental in the face of climate change which will demand fish to move or die in conditions outside the thermal range they can handle. Here, I will attempt to simulate the combined selection pressures of climate change, fishing, and a MPA. This could have implications for MPA design, and if fishing pressure dominates trait evolution at low degrees of variability, MPAs may not be the best long-term conservation solutions for areas that have low climate variability.</p>
+<h4 id="understanding-the-roles-adult-movement-and-larval-disperal">Understanding the roles adult movement and larval disperal</h4>
+<p>The first goal of this project is to characterize and model the relationship between adult movement rates and larval pelagic larval duration (PLD). This will be completed by an undergraduate I will mentor. Following this, I hope to use these relationships to build an understanding of 1) best conservation strategize for different movement combinations and 2) the ability of species with different movement combinations to track climate change.</p>
+<h4 id="machine-learning-in-movement-ecology">Machine Learning in Movement Ecology</h4>
+<p>I developed a random forest model in order to predict home range and pelagic larval duration values for over 800 species of commercially relevant marine species. Data inputs were generated from an extensive literature review of empirical home range studies. The model was able to predict home range values of species within an order of magnitude almost 90% of the time. This model will be useful in the future for understanding how much space species utilize and for classifying groupings of movement characteristics in future efforts.</p>
+<h3 id="species-habitat-use-and-distributions">Species Habitat Use and Distributions</h3>
+<h4 id="habitat-continuity-at-mpa-boundaries-and-spillover">Habitat Continuity at MPA boundaries and Spillover</h4>
+<p>Marine protected areas (MPAs) are important tools for species conservation, with the potential to also benefit fisheries. By restricting local extractive activities, MPAs can lead to increased populations within reserve borders. These increases can benefit nearby fisheries via spillover, when the movement of larvae or adults extends outside of reserve borders to areas which are exposed to fishing. However, spillover is dependent on a range of factors, particularly the spatial design of the MPA. Scientific guidelines for designing MPAs have existed for over two decades, and include considerations for size, shape, spacing, and protecting key representative habitats. However, few studies have examined how the configuration of these habitats relative to MPA boundaries may influence MPA benefits and spillover. Habitats provide many essential services, including food and shelter. When MPAs are designed such that habitats extend across the boundaries, this continuous physical structure may provide a corridor that facilitates animal movement outside of the protected area, increasing spillover and providing benefits to fisheries. Conversely, when MPA borders are isolated from habitat, movement may be restricted, providing greater conservation benefits as organisms are less likely to exit the MPA.</p>
+<h4 id="understanding-the-role-of-adult-movement-and-larval-dispersal-in-climate-tracking">Understanding the role of adult movement and larval dispersal in climate tracking</h4>
+<h3 id="fisheries">Fisheries</h3>
+<h4 id="determining-boundaries-globally-for-fish-stocks">Determining boundaries globally for fish stocks</h4>
+<p>The goal of this project is to build a global spatial database of management boundaries for a number of countries and regional fishery management organizations. I hope to use these boundaries to inform the success of fisheries management, such as marine protected areas, within these different management schemes.</p>
+<h4 id="maching-learning-and-fisheries">Maching learning and Fisheries</h4>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
