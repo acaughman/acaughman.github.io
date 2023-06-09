@@ -18,6 +18,4 @@ Working with Dr. Frank Stewart and Dr. Zoe Pratte at the Georgia Institute of Te
 
 Quantitative and computational skills are required of 21st-century biologists. It is important to understand how students perceive math and CS subjects and whether those perceptions are linked or operate contradictory to determine instructional best practices. We aimed to 1) determine biology students’ perceptions of math and CS in biological contexts, 2) measure the linkage of those perceptions, and 3) examine additional factors affecting attitudes. Math and CS values exhibited positive correlations, but Utility and Cost were more negative for CS, largely made more positive by prior exposure to CS. Given these findings, we make educational recommendations for CS and math exposure early, often, and embedded in the biology curriculum. 
 
-### Other work
 
-While still at the Georgia Institute of Technology, I developed a Swirl Module in R for BIOS 2301, for the Ecology Lab at Georgia Tech. This module walks students through analyzing stream health data from the EPA for streams across the United States using descriptive statistics, boxplots, and linear regression in R.
