@@ -19,18 +19,16 @@ output:
 
 I am a PhD student in the [Bren School of Environmental Science and Management](https://bren.ucsb.edu/) at the University of California, Santa Barbara advised by [Steve Gaines](https://gaineslabucsb.com/people/steve-gaines/) and [Darcy Bradley](https://msi.ucsb.edu/people/research-scientists/darcy-bradley). 
 
-During my time in the [Gaines](https://gaineslabucsb.com/) and Bradley labs, I am interested in the intersection of marine animal movement ecology, conservation, and data science. Particularly for my dissertation, I am researching in how different movement traits or movement trait combinations effect the conservation in species both now and in the future with climate change. I am using my existing programming skills to develop simulation models to answer a broach range of theoretical questions about species movement and habitat choice, including how different pressures may effect the evolution of movement traits and how larval dispersal and adult movement combinations may effect conservation success. In the future, I hope to leverage empirical data to test and improve the theoretical models and translate that into effective marine conservation solutions. I am currently supported by the National Science Foundation Graduate Research Fellows Program.
-
+During my time in the [Gaines](https://gaineslabucsb.com/) and Bradley labs, I am interested in the intersection of marine animal movement ecology, conservation, and data science. Particularly for my dissertation, I am researching in how different movement traits or movement trait combinations effect the conservation in species both now and in the future with climate change. I am using my existing programming skills to develop simulations and models to answer a broach range of theoretical questions about species movement and habitat choice, including how different pressures may effect the evolution of movement traits and how larval dispersal and adult movement combinations may effect conservation success. In the future, I hope to leverage empirical data to test and improve the theoretical models and translate that into effective marine conservation solutions. I am currently supported by the National Science Foundation Graduate Research Fellows Program.
 
 I spend most of my free time rock climbing at the Santa Barbara Rock Gym in downtown Santa Barbara. I also enjoy hiking, kayaking, SCUBA Diving and other outdoor activities!
-
 
 
 #### Education
 
 B.S. Biology | Georgia Institute of Technology | 2016 - 2020
 
-M.A. Statistics (Data Science) | University of California, Santa Barbara | 2021 - 2023 (expected)
+M.A. Statistics (Data Science) | University of California, Santa Barbara | 2021 - 2024 (expected)
 
 Ph.D. Environmental Science and Management | University of California, Santa Barbara | 2021 - 2026 (expected)
 

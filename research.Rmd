@@ -1,5 +1,5 @@
 ---
-title: "Current Research Projects"
+title: "Research Themes"
 ---
 
 ### Marine Movement Ecology and Conservation
@@ -10,7 +10,7 @@ While climate change is expected to disrupt marine protected areas (MPAs), much 
 
 #### Understanding the role adult movement and larval disperal in MPA effectivness
 
-The first goal of this project is to characterize and model the relationship between adult movement rates and larval pelagic larval duration (PLD). This will be completed by an undergraduate I will mentor. Following this, I hope to use these relationships to build an understanding of 1) best conservation strategize for different movement combinations and 2) the ability of species with different movement combinations to track climate change. Currently, MPA design focuses on adult movement and larval dispersal separately due to data restrictions, using home range to determine MPA size and larval dispersal to determine MPA spacing in networks. I hope to build off our understanding of MPA design to determine how movement across both life stages can be more seamlessly incorporated into MPA design.
+The first goal of this project is to characterize and model the relationship between adult movement rates and larval pelagic larval duration (PLD). This will be completed by an undergraduate I will mentor. Following this, I hope to use these relationships to build an understanding of 1) best conservation strategies for different movement combinations and 2) the ability of species with different movement combinations to track climate change. Currently, MPA design focuses on adult movement and larval dispersal separately due to data restrictions, using home range to determine MPA size and larval dispersal to determine MPA spacing in networks. I hope to build off our understanding of MPA design to determine how movement across both life stages can be more seamlessly incorporated into MPA design.
 
 #### Machine Learning in Movement Ecology
 
@@ -21,16 +21,6 @@ Machine learning is a powerful tool for predicting data from observed data. A re
 #### Habitat Continuity at MPA boundaries and Spillover
 
 Marine protected areas (MPAs) are important tools for species conservation, with the potential to also benefit fisheries. By restricting local extractive activities, MPAs can lead to increased populations within reserve borders. These increases can benefit nearby fisheries via spillover, when the movement of larvae or adults extends outside of reserve borders to areas which are exposed to fishing. However, spillover is dependent on a range of factors, particularly the spatial design of the MPA. Scientific guidelines for designing MPAs have existed for over two decades, and include considerations for size, shape, spacing, and protecting key representative habitats. However, few studies have examined how the configuration of these habitats relative to MPA boundaries may influence MPA benefits and spillover. Habitats provide many essential services, including food and shelter. When MPAs are designed such that habitats extend across the boundaries, this continuous physical structure may provide a corridor that facilitates animal movement outside of the protected area, increasing spillover and providing benefits to fisheries. Conversely, when MPA borders are isolated from habitat, movement may be restricted, providing greater conservation benefits as organisms are less likely to exit the MPA. In coordination with Cori Lopazanski at Bren, we hope to employ simulation models to determine how habitat characteristics effect spillover - and likewise effect the expected and optimal distribution of fishing effort. We also hope to use data, specifically focusing on the California Spiny Lobster to confirm and expand upon these findings.
-
-### Fisheries 
-
-#### Determining boundaries globally for fish stocks
-
-The goal of this project is to build a global spatial database of management boundaries for all countries and regional fishery management organizations (This is under contract for Mola Mola Analytics and FishSource). I hope to use these boundaries to inform fisheries management, such as determined the success of marine protected areas within these different management schemes.
-
-#### Maching learning and Fisheries
-
-Another area that machine learning is a useful and underutilized tool is in fisheries. Here, in collaboration with Leo Feitosa at Bren, I hope to develop hierarchical prediction models that can predict shark at-vessel and post-release mortality rates for a variety of species and fishing gear types.
 
 ### **D**iscipline **B**ased **E**ducation **R**esearch (DBER)
 
