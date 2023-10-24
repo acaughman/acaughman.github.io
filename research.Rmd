@@ -2,32 +2,17 @@
 title: "Research Themes"
 ---
 
-### Marine Movement Ecology and Conservation
+### Disentangling drivers and impact of adult versus larval movement
 
-#### Interactions between protection and in climate change
+### Fish movement evolution in the anthropocene
 
-While climate change is expected to disrupt marine protected areas (MPAs), much is still not understood about the possible cascading the effects of protection in a changing world. MPAs are largely expected to confer ecosystems with enhanced resilience to stress, but there is little evidence of this. Additionally, evidence has shown that considering other factors that arise during climate change, such as adaptation for increased tolerance to thermal stress, can completely change the best design recommendations for climate-smart MPAs.
-
-#### Understanding the role adult movement and larval disperal in MPA effectivness
-
-The first goal of this project is to characterize and model the relationship between adult movement rates and larval pelagic larval duration (PLD). This will be completed by an undergraduate I will mentor. Following this, I hope to use these relationships to build an understanding of 1) best conservation strategies for different movement combinations and 2) the ability of species with different movement combinations to track climate change. Currently, MPA design focuses on adult movement and larval dispersal separately due to data restrictions, using home range to determine MPA size and larval dispersal to determine MPA spacing in networks. I hope to build off our understanding of MPA design to determine how movement across both life stages can be more seamlessly incorporated into MPA design.
-
-#### Machine Learning in Movement Ecology
-
-Machine learning is a powerful tool for predicting data from observed data. A recent example of my use of this tool was for marine fish species home ranges and pelagic larval duration (PLD). I developed a random forest model in order to predict home range and pelagic larval duration values for over 600 commercially relevant marine species. Data inputs were generated from an extensive literature review of empirical home range studies. The model was able to predict home range values of species within an order of magnitude of the observed value almost 90% of the time. This model will be useful in the future for understanding how much space species utilize and for classifying groupings of movement characteristics in future efforts, such as in the efforts described above.
-
-### Species Habitat Use and Distributions
-
-#### Habitat Continuity at MPA boundaries and Spillover
-
-Marine protected areas (MPAs) are important tools for species conservation, with the potential to also benefit fisheries. By restricting local extractive activities, MPAs can lead to increased populations within reserve borders. These increases can benefit nearby fisheries via spillover, when the movement of larvae or adults extends outside of reserve borders to areas which are exposed to fishing. However, spillover is dependent on a range of factors, particularly the spatial design of the MPA. Scientific guidelines for designing MPAs have existed for over two decades, and include considerations for size, shape, spacing, and protecting key representative habitats. However, few studies have examined how the configuration of these habitats relative to MPA boundaries may influence MPA benefits and spillover. Habitats provide many essential services, including food and shelter. When MPAs are designed such that habitats extend across the boundaries, this continuous physical structure may provide a corridor that facilitates animal movement outside of the protected area, increasing spillover and providing benefits to fisheries. Conversely, when MPA borders are isolated from habitat, movement may be restricted, providing greater conservation benefits as organisms are less likely to exit the MPA. In coordination with Cori Lopazanski at Bren, we hope to employ simulation models to determine how habitat characteristics effect spillover - and likewise effect the expected and optimal distribution of fishing effort. We also hope to use data, specifically focusing on the California Spiny Lobster to confirm and expand upon these findings.
+### Habitat Usage and Climate Change Impacts
 
 ### **D**iscipline **B**ased **E**ducation **R**esearch (DBER)
 
 #### Student's attitudes towards math and CS
 
 Quantitative and computational skills are required of 21st-century biologists. It is important to understand how students perceive math and CS subjects and whether those perceptions are linked or operate contradictory to determine instructional best practices. We aimed to 1) determine biology students’ perceptions of math and CS in biological contexts, 2) measure the linkage of those perceptions, and 3) examine additional factors affecting attitudes. Math and CS values exhibited positive correlations, but Utility and Cost were more negative for CS, largely made more positive by prior exposure to CS. Given these findings, we make educational recommendations for CS and math exposure early, often, and embedded in the biology curriculum. 
-
 
 ### In the Field
 
