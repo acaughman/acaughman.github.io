@@ -17,7 +17,7 @@ title: "Publications"
 ### In Prep
 
 1. **Caughman AM**, Gaines SD, Bradley D. Climate change reduces population benefits from marine protected areas through selective pressures on species movement. For submission to Global Change Biology
-2. Rosenberg EJ, **Caughman AM**. Marine fish traits interact to create specific context where life stage based movement combinations arise. For submission to Ecology Letters
+2. Rosenberg EJ^, **Caughman AM**. Marine fish traits interact to create specific context where life stage based movement combinations arise. For submission to Ecology Letters ^undergraduate co-author
 
 ### Other Publications and Creative Products
  
