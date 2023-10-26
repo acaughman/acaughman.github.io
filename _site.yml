@@ -14,8 +14,8 @@ navbar:
       href: publications.html
     - text: "Teaching"
       href: teaching.html
-    - text: "News"
-      href: blog.html
+    # - text: "News"
+    #   href: blog.html
   search: false
 output: distill::distill_article
 collections:
