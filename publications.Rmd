@@ -5,19 +5,21 @@ title: "Publications"
 ### Peer Reviewed Journals
 
 1. **Caughman AM**, Weigel EG. Biology students’ math and computer science task values are closely linked. CBE – Life Sciences Education. 21(3):ar43.
-2.	**Caughman AM^**, Pratte ZA^, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. 40(3)921-935. ^Caughman and Pratte co-first authors
+2.	**Caughman AM^**, Pratte ZA^, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. 40(3)921-935. ^co-first authors
 3.	Pratte ZA, Patin NV, McWhirt ME, **Caughman AM**, Parris DJ, Stewart FJ. 2018. Association with a sea anemone alters the skin microbiome of clownfish. Coral Reefs. 37(4):1119-1125.
 
 ### In Review
 
-1. Bradley D^, **Caughman AM^**, Fogg S, Cabral RB, Mayorga J, Goodell W, White TD. Observed and estimated home ranges for fished marine species globally. In Review at Scientific Data
-^Bradley and Caughman co-first authors
-2. Cabral, RB, …, **Caughman AM**, ... et al. A global network of marine protected areas for dive tourism. In Review At Communications Earth and Environment
+1.	Bradley D^, **Caughman AM^**, Fogg S, Cabral RB, Mayorga J, Goodell W, Millage KD, White TD. Observed and estimated home ranges for fished marine species globally. In review at Scientific Data ^co-first authors
+2. **Caughman AM**, Gaines SD, Bradley D. Climate change reduces population benefits from marine protected areas through selective pressures on species movement. In Review at Global Change Biology
+
 
 ### In Prep
 
-1. **Caughman AM**, Gaines SD, Bradley D. Climate change reduces population benefits from marine protected areas through selective pressures on species movement. For submission to Global Change Biology
-2. Rosenberg EJ^, **Caughman AM**. Marine fish traits interact to create specific context where life stage based movement combinations arise. For submission to Ecology Letters ^undergraduate co-author
+1.	Rosenberg EJ^, **Caughman AM**. Fish movement capacity across life stages dictated by trait tradeoffs. ^undergraduate
+2.	Cabral RB, …, **Caughman AM**, ... et al. A global network of marine protected areas for dive tourism. 
+3.	Feitosa LM^, **Caughman AM^**, D’Costa N, Orofino S, Burns ES, Bradley D. Post-release and at-vessel mortality estimates suggest retention bans and catch quotas have limited effect to reduce elasmobranch mortality. ^co-first authors
+
 
 ### Other Publications and Creative Products
  
