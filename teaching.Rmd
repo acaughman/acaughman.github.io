@@ -4,13 +4,18 @@ title: "Teaching"
 
 I am passionate about making computational and statistical skills more accessible to students in ecology and environmental science. I was lucky to attend a school (Georgia Tech) where coding and statistics were both a requirement in my biology major, but still I saw my of my peers avoiding and dreading the requirement, despite how useful such skills are, and most biology classes were still using older technology for data analysis, such as minitab. As someone who both loves and values her statistical and coding skills, I've made it a mission to imbue students with the excitement and utility of these tools and reduce barriers to learning them. As part of my PhD, I am completing the CCUT (Certificate in College and University Teaching) in order to enhance my skills as a teacher and learn evidence-based strategies to accomplish my teaching goals.
 
+### Instructor of Record
+
+University of California Santa Barbara
+
+* Summer 2024: INT 93LS Introduction to Research in STEM, Humanities, and Social Sciences - Data Science and Marine Ecology
 
 ### Teaching Assistant 
 
-University of California Santa Barbara (Upcoming)
+University of California Santa Barbara
 
 * Fall 2023: EDS 223 Geospatial Analysis and Remote Sensing 
-* Winter 2023: EDS 232 Machine Learning in Environmental Science
+* Winter 2024: EDS 232 Machine Learning in Environmental Science
 
 Georgia Institute of Technology
 
