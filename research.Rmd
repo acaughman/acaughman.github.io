@@ -6,13 +6,9 @@ title: "Research Themes"
 
 Fish movement occurs across two distinct life-stages, larval and adult, that each have unique ecological environmental drivers dictating movement capacity. Although larval dispersal and adult movement are often considered individually, understanding how species traits and external drivers interact to determine overall combined movement capacity is key to fully understanding a fish’s movement capacity. Utilizing new data sets of predicted species movement characteristics (Bradley and Caughman et al., in Review), we shows that distinct factors drive movement extents at each life-stage (Rosenberg and Caughman, in prep), leading to specific environmental contexts where species evolve specific combined movement capacities. In a changing world, movement capability is a key factor for a species’ survival, determining both its level of protection within marine protected areas and its ability to track climate change. This work will help provide a more nuanced understanding of how life-stage specific species movement and combined movement capacities impact conservation design and climate tracking abilities.
 
-### Fish movement evolution in the anthropocene
+### Movement informed climate smart conservation strategies
 
-Climate change is leaving fish with few options: adapt, migrate, or die. There is mounting evidence, that especially on range edges that species are evolving faster movement rates to track climate change. There is, however, little understanding of how human interventions may impact species movement evolution. For example, marine protected areas lead to the evolution of lower movement rates, which reduces the exposure to fishing. Climate change is unable to reverse this effect, constraining populations from moving at their full potential (Caughman et al., in prep). I plan to continue to investigate how conservation strategies have unintended consequences for fish populations, such as protected area networks and assisted migration, and how we can adapt said strategies to better account for changes in species movement.
-
-### Habitat usage and climate change impacts on species conservation
-
-Understanding how species make use of different habitats and how climate change is effecting these choices is key to determining how to protect species in the future. Habitat is an important, but often overlooked aspect of marine protected area design, impacting both conservation and fisheries benefits of the reserve (Lopazanski and Caughman in prep). Further work investigating how species choose resource trade-offs through time will be vital for making species management plans.
+### Anthropogenetic drivers of species movement
 
 ### **D**iscipline **B**ased **E**ducation **R**esearch (DBER)
 
