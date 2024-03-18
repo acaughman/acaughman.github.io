@@ -4,7 +4,7 @@ title: "Publications"
 
 ### Peer Reviewed Journals
 
-1. **Caughman AM**, Gaines SD, Bradley D. 2024. Climate change reduces population benefits from marine protected areas through selective pressures on species movement. Global Change Biology. in Press.
+1. **Caughman AM**, Gaines SD, Bradley D. 2024. Climate change reduces population benefits from marine protected areas through selective pressures on species movement. Global Change Biology. 00, e17240.
 2. **Caughman AM**, Weigel EG. 2022. Biology students’ math and computer science task values are closely linked. CBE – Life Sciences Education. 21(3):ar43.
 3.	**Caughman AM^**, Pratte ZA^, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. 40(3)921-935. ^co-first authors
 4.	Pratte ZA, Patin NV, McWhirt ME, **Caughman AM**, Parris DJ, Stewart FJ. 2018. Association with a sea anemone alters the skin microbiome of clownfish. Coral Reefs. 37(4):1119-1125.
