@@ -6,15 +6,7 @@ title: "Research Themes"
 
 Fish movement occurs across two distinct life-stages, larval and adult, that each have unique ecological environmental drivers dictating movement capacity. Although larval dispersal and adult movement are often considered individually, understanding how species traits and external drivers interact to determine overall combined movement capacity is key to fully understanding a fish’s movement capacity. Utilizing new data sets of predicted species movement characteristics (Bradley and Caughman et al., in Review), we shows that distinct factors drive movement extents at each life-stage (Rosenberg and Caughman, in prep), leading to specific environmental contexts where species evolve specific combined movement capacities. In a changing world, movement capability is a key factor for a species’ survival, determining both its level of protection within marine protected areas and its ability to track climate change. This work will help provide a more nuanced understanding of how life-stage specific species movement and combined movement capacities impact conservation design and climate tracking abilities.
 
-### Movement informed climate smart conservation strategies
 
-### Anthropogenetic drivers of species movement
-
-### **D**iscipline **B**ased **E**ducation **R**esearch (DBER)
-
-#### Student's attitudes towards math and CS
-
-Quantitative and computational skills are required of 21st-century biologists. It is important to understand how students perceive math and CS subjects and whether those perceptions are linked or operate contradictory to determine instructional best practices. We aimed to 1) determine biology students’ perceptions of math and CS in biological contexts, 2) measure the linkage of those perceptions, and 3) examine additional factors affecting attitudes. Math and CS values exhibited positive correlations, but Utility and Cost were more negative for CS, largely made more positive by prior exposure to CS. Given these findings, we make educational recommendations for CS and math exposure early, often, and embedded in the biology curriculum. 
 
 ### In the Field
 
