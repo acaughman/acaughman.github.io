@@ -4,7 +4,7 @@ title: "Publications"
 
 ### Peer Reviewed Journals
 
-1. Bradley D^, **Caughman AM^**, Fogg S, Cabral RB, Mayorga J, Goodell W, Millage KD, White TD. Observed and estimated home ranges for fished marine species globally. In Press at Scientific Data ^co-first authors
+1. Bradley D^, **Caughman AM^**, Fogg S, Cabral RB, Mayorga J, Goodell W, Millage KD, White TD. 2024. Marine Fish Movement: home range sizes for commercially relevant species. Sci Data 11, 865 *co-first authors ^co-first authors
 2. **Caughman AM**, Gaines SD, Bradley D. 2024. Climate change reduces population benefits from marine protected areas through selective pressures on species movement. Global Change Biology. 30(3), e17240.
 3. **Caughman AM**, Weigel EG. 2022. Biology students’ math and computer science task values are closely linked. CBE – Life Sciences Education. 21(3):ar43.
 4.	**Caughman AM^**, Pratte ZA^, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. 40(3)921-935. ^co-first authors
@@ -22,7 +22,8 @@ title: "Publications"
 
 ### Other Publications and Creative Products
  
-1.	**Caughman, A**., Alexander, K., Munster, K. 2022. Visualizing Commercially Relevant Fish Home Range Sizes. https://emlab-ucsb.shinyapps.io/fish_homeranges/
-2.	**Caughman A**., Weigel EG. 2021. Investigating human impacts on Southeastern US stream ecology using R. QUBES Educational Resources. doi:10.25334/P995-7G91
-3.	**Caughman AM**. 2020. Variation in Coral Microbiome Composition and Transcriptional Activity of Three Corals over Diel Cycles [bachelor’s thesis]. Georgia Institute of Technology
+1. Bradley D^, **Caughman A^**, Fogg S, Cabral RB, Mayorga J, Goodell W, Millage KD, White TD. 2024. Marine Fish Movement [Dataset]. Dryad. https://doi.org/10.25349/D96C9M
+2.	**Caughman, A**., Alexander, K., Munster, K. 2022. Visualizing Commercially Relevant Fish Home Range Sizes. https://emlab-ucsb.shinyapps.io/fish_homeranges/
+3.	**Caughman A**., Weigel EG. 2021. Investigating human impacts on Southeastern US stream ecology using R. QUBES Educational Resources. doi:10.25334/P995-7G91
+4.	**Caughman AM**. 2020. Variation in Coral Microbiome Composition and Transcriptional Activity of Three Corals over Diel Cycles [bachelor’s thesis]. Georgia Institute of Technology
 
