@@ -2,13 +2,29 @@
 title: "Research Themes"
 ---
 
+# Understanding and designing conservation interventions around the impact humans are having on marine species movement 
+
 ### Disentangling drivers and impact of adult versus larval movement
 
 Fish movement occurs across two distinct life-stages, larval and adult, that each have unique ecological environmental drivers dictating movement capacity. Although larval dispersal and adult movement are often considered individually, understanding how species traits and external drivers interact to determine overall combined movement capacity is key to fully understanding a fish’s movement capacity. Utilizing new data sets of predicted species movement characteristics (Bradley and Caughman et al., in Review), we shows that distinct factors drive movement extents at each life-stage (Rosenberg and Caughman, in prep), leading to specific environmental contexts where species evolve specific combined movement capacities. In a changing world, movement capability is a key factor for a species’ survival, determining both its level of protection within marine protected areas and its ability to track climate change. This work will help provide a more nuanced understanding of how life-stage specific species movement and combined movement capacities impact conservation design and climate tracking abilities.
 
+![talk](images/acaughman_imcc7_1.JPG)
 
+### Marine reserves for climate change
+
+Climate change is threatening many species with extinction, forcing them to move or die. Determining how climate change is going to impact animals in marine reserves and determine what steps we can take to mitigate these impacts is key for the continued efficacy of reserves in the future.
+
+![poster](images/sotm.jpg)
+
+### Impact of predictability on species movement/behavioral patterns
+
+Navigation capacity is a key component of movement ecology that encompasses how an individual orients movement. Because animals can only sense their local environment, predictability across space and time in resources allows animals to make more informed decisions about where they move, possibly due to memory. While this obviously applies to species that move over large distances (i.e timing of migrations), it can influence species movement patterns on smaller scales as well. High temporal predictability of resources is expected to lead to more oriented movements (residency or migration), while low temporal predictability leads to nomadism. Spatial heterogeneity is expected to dictate the spatial scale of movement, with course heterogeneity leading to larger scale movements than fine scale heterogeneity. Riotte-Lambert and Matthiopoulos (2020) define two axes of environmental prediction - constancy (how fixed a resource is) and contingency (degree to which a variable is determined by itself) – where increased levels of either results in higher predictability. While these robust theoretical frameworks exist, they are just beginning to be fully explored empirically. One key way to explore the effects of predictability on species space use and habitat selection is through the actions and movement of humans, which has been shown to shift animal behavior by adjusting both species population and the physical environment.
 
 ### In the Field
+
+#### Santa Barbara eDNA 
+
+![field](images/edna.jpg)
 
 #### Mo'orea Coral Reef LTER
 |                             |                             |
