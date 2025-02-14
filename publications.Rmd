@@ -4,7 +4,7 @@ title: "Publications"
 
 ### Peer Reviewed Journals
 
-1. Cabral RB, …, **Caughman AM**, ... et al. A global network of marine protected areas for dive tourism. In Press. Scientific Reports.
+1. Cabral RB, …, **Caughman AM**, ... et al. A global network of marine protected areas for dive tourism. Sci Rep. 15:1923
 2. Bradley D^, **Caughman AM^**, Fogg S, Cabral RB, Mayorga J, Goodell W, Millage KD, White TD. 2024. Marine Fish Movement: home range sizes for commercially relevant species. Sci Data 11, 865 *co-first authors ^co-first authors
 3. **Caughman AM**, Gaines SD, Bradley D. 2024. Climate change reduces population benefits from marine protected areas through selective pressures on species movement. Global Change Biology. 30(3), e17240.
 4. **Caughman AM**, Weigel EG. 2022. Biology students’ math and computer science task values are closely linked. CBE – Life Sciences Education. 21(3):ar43.
@@ -15,10 +15,8 @@ title: "Publications"
 ### In Review
 
 1. Feitosa LM^, **Caughman AM^**, D’Costa N, Orofino S, Burns ES, Bradley D. Retention prohibitions are likely insufficient to recover overfished shark populations. In Revision. Fish and Fisheries ^co-first authors
+2. Rosenberg EJ^, Bradley D, Gaines SD, **Caughman AM**. Marine fish trait interactions create specific contexts where different ontogenetic movement combinations arise. In review at Marine Ecology Progress Series ^undergraduate
 
-### In Prep
-
-1.	Rosenberg EJ^, Bradley D, Gaines SD, **Caughman AM**. Fish movement capacity across life stages dictated by trait tradeoffs. For submission to Functional Ecology. ^undergraduate
 
 ### Other Publications and Creative Products
  
