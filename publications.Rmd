@@ -4,18 +4,18 @@ title: "Publications"
 
 ### Peer Reviewed Journals
 
-1. Cabral RB, …, **Caughman AM**, ... et al. A global network of marine protected areas for dive tourism. Sci Rep. 15:1923
-2. Bradley D^, **Caughman AM^**, Fogg S, Cabral RB, Mayorga J, Goodell W, Millage KD, White TD. 2024. Marine Fish Movement: home range sizes for commercially relevant species. Sci Data 11, 865 *co-first authors ^co-first authors
-3. **Caughman AM**, Gaines SD, Bradley D. 2024. Climate change reduces population benefits from marine protected areas through selective pressures on species movement. Global Change Biology. 30(3), e17240.
-4. **Caughman AM**, Weigel EG. 2022. Biology students’ math and computer science task values are closely linked. CBE – Life Sciences Education. 21(3):ar43.
-5.	**Caughman AM^**, Pratte ZA^, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. 40(3)921-935. ^co-first authors
-6.	Pratte ZA, Patin NV, McWhirt ME, **Caughman AM**, Parris DJ, Stewart FJ. 2018. Association with a sea anemone alters the skin microbiome of clownfish. Coral Reefs. 37(4):1119-1125.
+1. Feitosa LM^, **Caughman AM^**, D’Costa N, Orofino S, Burns ES, Bradley D. Retention prohibitions are likely insufficient to recover overfished shark populations. In Revision. Fish and Fisheries ^co-first authors
+2. Cabral RB, …, **Caughman AM**, ... et al. A global network of marine protected areas for dive tourism. Sci Rep. 15:1923
+3. Bradley D^, **Caughman AM^**, Fogg S, Cabral RB, Mayorga J, Goodell W, Millage KD, White TD. 2024. Marine Fish Movement: home range sizes for commercially relevant species. Sci Data 11, 865 *co-first authors ^co-first authors
+4. **Caughman AM**, Gaines SD, Bradley D. 2024. Climate change reduces population benefits from marine protected areas through selective pressures on species movement. Global Change Biology. 30(3), e17240.
+5. **Caughman AM**, Weigel EG. 2022. Biology students’ math and computer science task values are closely linked. CBE – Life Sciences Education. 21(3):ar43.
+6.	**Caughman AM^**, Pratte ZA^, Patin NV, Stewart FJ. 2021. Coral microbiome changes over the day-night cycle. Coral Reefs. 40(3)921-935. ^co-first authors
+7.	Pratte ZA, Patin NV, McWhirt ME, **Caughman AM**, Parris DJ, Stewart FJ. 2018. Association with a sea anemone alters the skin microbiome of clownfish. Coral Reefs. 37(4):1119-1125.
 
 
 ### In Review
 
-1. Feitosa LM^, **Caughman AM^**, D’Costa N, Orofino S, Burns ES, Bradley D. Retention prohibitions are likely insufficient to recover overfished shark populations. In Revision. Fish and Fisheries ^co-first authors
-2. Rosenberg EJ^, Bradley D, Gaines SD, **Caughman AM**. Marine fish trait interactions create specific contexts where different ontogenetic movement combinations arise. In review at Marine Ecology Progress Series ^undergraduate
+1. Rosenberg EJ^, Bradley D, Gaines SD, **Caughman AM**. Marine fish trait interactions create specific contexts where different ontogenetic movement combinations arise. In review at Marine Ecology Progress Series ^undergraduate
 
 
 ### Other Publications and Creative Products
