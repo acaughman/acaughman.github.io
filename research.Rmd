@@ -6,27 +6,25 @@ title: "Research Themes"
 
 ### Disentangling drivers and impact of adult versus larval movement
 
-Unlike most species, fish movement occurs across two distinct life-stages, larval and adult. When studying the drivers of fish and the implications for conservation design, however, these life stages are often considered individually. Utilizing novel datasets of both adult (home range; Bradley and Caughman et al., Scientific Data) and larval (pelagic larval duration; PLD; unpublished data) for 606 commercially important fish species, in collaboration with an undergraduate at UCSB, we show that there are constraints are movement extent at one life stage based on the other (Rosenberg et al., In Prep^) and that distinct factors drive movement extents at each life-stage, leading to specific environmental contexts where species evolve specific combined movement capacities. This work has laid the foundation for my current work integrating movement from both life stages into marine protected area design. 
-Utilizing the knowledge of which combinations of adult and larval movement arise in commercial species, I built a spatial explicit simulation model to test how connectivity and population sizes in a marine protected area (MPA) network are influenced by a variety of factors: both adult and larval movement, MPA size and spacing, external fishing pressure, and reproduction output. Preliminary results indicate that regardless of movement, closely spaced MPAs are more highly connected and result in greater populations inside the MPA and that generally, adults are contributing more to these outcomes than larval than expected (Chapter 2). I will compare these results to monitoring data from the Chanel Islands National Marine Sanctuary to determine if these theoretical patterns are seen in empirical data. This work will inform species-specific reserve design by helping to determine which life history MPAs should be designed around. 
-
-
 ![talk](images/acaughman_imcc7_1.JPG)
 
 ### Conservation in a human impacted world
 
-Human impacts are threatening species across the planet. Climate change is currently one of the largest threats. Taking an eco-evolutionary approach, I modeled the interacting selection pressures of protection in an MPA and climate change on species movement extents. I found that while protected decreases species movement, which is beneficial in the short term, climate change selects for increased movement rates (Caughman et al., 2024 Global Change Biology). Overall, this has several negative outcomes, such as faster than expected rates of decline and a resulting population whose movement is restrained, restricting their ability to track climate change. To further evaluate the impact, both positive and negative, that evolution may have on MPAs in the future, I plan to create a novel index of evolutionary potential based on species and environmental traits that contribute to rapid evolution to identify species and regions where the impacts of evolution need to be considered when designing and managing MPAs. 
 
 ![poster](images/sotm.jpg)
 
 ### Determining drivers of species spatial patterns across scales
 
-To determine how species will respond to global change, it is important to understand the drivers of species distributions across scales. At a larger scale, I am using eDNA to detect Giant Sea Bass in the Chanel Islands National Marine Sanctuary to create a species distribution model, which will inform establishment of conservation measures, particularly for vulnerable spawning aggregations.  On a smaller scale, I am investigating whether species are using proximate cues or memories to respond to human activity. Using COVID as a case study I will calculate a pre-COVID baseline of Global Fishing Watch vessel data, and then use a resource selection function and animal tracking data to determine if they are selecting resources based on the baseline or current human activity patterns.  Future work will continue to integrate species movement and predictability to mechanistically model species distributions now and in the future.
 
 ### In the Field
 
-#### Santa Barbara eDNA 
+#### Santa Barbara and Channel Islands eDNA 
 
-![field](images/edna.jpg)
+|                             |                             |
+|---------------------------- |---------------------------- |
+| ![shore](images/edna.jpg)    | ![ci](images/edna_2.jpg)|
+
+
 
 #### Mo'orea Coral Reef LTER
 |                             |                             |
