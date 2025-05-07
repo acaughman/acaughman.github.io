@@ -1,6 +1,6 @@
 ---
 title: "Allie Caughman"
-image: "images/AMC_headshot.jpg"
+image: "images/Allie_Caughman_0002.jpg"
 site: distill::distill_website
 links:  
   - label: CV
