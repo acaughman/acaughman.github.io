@@ -4,7 +4,7 @@ image: "images/Allie_Caughman_0002.jpg"
 site: distill::distill_website
 links:  
   - label: CV
-    url: "https://drive.google.com/file/d/1KsGEpoM0RujbL5kdFflrJhedqOvQily5/view?usp=drive_link"
+    url: "https://drive.google.com/file/d/1SgYETaTmQj3TUuv1fS1ffXFgVe5bVm1Q/view?usp=sharing"
   - label: Google Scholar
     url: "https://scholar.google.com/citations?user=Yl1doQQAAAAJ&hl=en"
   - label: GitHub
@@ -17,9 +17,11 @@ output:
 
 #### Bio
 
-I am a PhD student in the [Bren School of Environmental Science and Management](https://bren.ucsb.edu/) at the University of California, Santa Barbara advised by [Steve Gaines](https://gaineslabucsb.com/people/steve-gaines/) and [Darcy Bradley](https://www.scienceforconservation.org/our-team/darcy-bradley). I recieved by BS in Biology from the Georgia Institute of Technology in 2020 and my MA in Statistics from the University of California, Santa Barbara in 2024.
+I am a quantitative marine ecologist and PhD student in the [Bren School of Environmental Science and Management](https://bren.ucsb.edu/) at the University of California, Santa Barbara advised by [Steve Gaines](https://gaineslabucsb.com/people/steve-gaines/) and [Darcy Bradley](https://www.scienceforconservation.org/our-team/darcy-bradley). I received by BS in Biology from the Georgia Institute of Technology in 2020 and my MA in Statistics from the University of California, Santa Barbara in 2024.
 
-During my time in the [Gaines](https://gaineslabucsb.com/) and Bradley labs, I am interested in the intersection of marine animal movement ecology, conservation, and data science. Particularly for my dissertation, I am researching in how different movement traits or movement trait combinations effect the conservation in species both now and in the future with climate change. Using my existing programming skills to develop simulations and models, I aim to answer a broach range of theoretical questions about species movement and habitat choice, including how different pressures may affect the evolution of movement traits and how larval dispersal and adult movement combinations may affect conservation planning and success. Additionally, I hope to leverage empirical data to test and improve the theoretical models and translate that into effective marine conservation solutions. I am currently supported by the National Science Foundation Graduate Research Fellows Program.
+I work at the intersection of marine animal movement ecology, conservation, and data science and use a broad range of theoretical simulations, data synthesis, and statistical and predictive modeling to understand animal movement processes from individuals to populations to global distributions. I work to answer a broad range of foundation ecological questions about how, why, and where species are moving, with a particular interest in how these processes are changing due to human influence. The end goal of much of my research is producing actionable conservation solutions. 
+
+During my time in the [Gaines](https://gaineslabucsb.com/) and Bradley labs, I am researching in how different movement traits or movement trait combinations effect the conservation in species both now and in the future with climate change and if humans impacting species movement behaviors in protected areas and beyond through proximate or memory based cues. I am currently supported by the National Science Foundation Graduate Research Fellows Program.
 
 Outside of my research, I put my quantitative skills to use by consulting on a variety of environmental science problems. While my expertise remains in fisheries, ecology, and conservation, I am well versed in a range of methods that can be applied to any environmental issue. From machine learning and statistics, to data management (including spatial data!), I am always looking for opportunities to work with organizations.
 
