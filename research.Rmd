@@ -27,7 +27,7 @@ In the face of global change, it is important to understand the drivers of speci
 
 |                             |                             |
 |---------------------------- |---------------------------- |
-| ![shore](images/edna.jpg)    | ![ci](images/edna_2.jpg)|
+| ![shore](images/edna.jpg)   | ![ci](images/edna_2.jpg)   |
 
 
 
