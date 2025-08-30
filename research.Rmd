@@ -6,20 +6,22 @@ title: "Research Themes"
 
 ### Disentangling drivers and impact of adult versus larval movement
 
-Unlike most species, fish movement occurs across two distinct life-stages, larval and adult. When studying the drivers of fish and the implications for conservation design, however, these life stages are often considered individually. To address this gap, I took a trait-based approach to explore how and why different combinations of adult and larval movement arise in fish species (Bradley and Caughman et al., 2024 Scientific Data; Rosenberg, Bradley, Gaines, and Caughman, in Review Marine Ecology Progress Series). With this added understanding of what movement combinations are possible, I am answering a range of questions from which life stage should we focus on for MPA design (Caughman et al., in Prep) to if there are combinations of adult and larval movement that benefit most when tracking climate change. Currently, this work is theoretical, but I hope to apply the concept to real-life case studies for MPA design using high-resolution habitat and ocean current information.
+Unlike most species, fish movement occurs across two distinct life-stages, larval and adult. When studying the drivers of fish and the implications for conservation design, however, these life stages are often considered individually. To address this gap, I took a trait-based approach to explore how and why different combinations of adult and larval movement arise in fish species (Bradley and Caughman et al., 2024 Scientific Data; Rosenberg, Bradley, Gaines, and Caughman, in Review Marine Ecology Progress Series). Species display a tendency toward moderate movement at at least one life stage.
+<img src="images/fig1.png" alt="fig" width="200"/> 
+With this added understanding of what movement combinations are possible, I am answering a range of questions about the relative impact of adult and larval movement MPA design (Caughman et al., in Prep) to tracking climate change and life time fitness. Currently, this work is theoretical, but I hope to apply the concept to real-life case studies for MPA design and distribution shifting using high-resolution habitat and ocean current information.
 
-![talk](images/acaughman_imcc7_1.JPG)
+![](images/acaughman_imcc7_1.JPG)
 
-### Conservation in a human impacted world
+### Incoroporating species movement into marine policy
 
-Human impacts are threatening species across the planet at global and local scales. These threats range from indirect effects, such as climate change, to direct impacts, such as extraction activity or even human presence. Particularly, as many protected areas balance access and conservation goals, I look at how human impacts within protected areas impact species behaviors, especially when it comes to movement. In the marine realm, I've shown that due to a release from fishing pressure, marine protected areas could have unintended consequences for species futures in climate change by reducing their movement rate (Caughman et al., 2024 Global Change Biology) and that retention bans are not enough to substantially reduce shark mortality due to death rates post-release for many species (Feitosa and Caughman et al., 2025 Fish and Fisheries). In California, I'm synthesizing information on how California's current protected areas support both human use and biodiversity and what effects this has on species behavior within these parks in order to inform recreation management (Caughman et al., in Prep). 
+Designing future-proofed protected areas requires understanding drivers of species movement to determine how biodiversity patterns may change over time. From species distributions to individual behavior choices, I employ statistical models to determine where species occur in space and why. This includes understanding patterns adult spillover due to habitat configuration and using eDNA in tandem with species distribution models to detect how species distributions overlap with current MPA networks. Additionally, I've shown that due to a release from fishing pressure, marine protected areas could have unintended consequences for species futures in climate change by reducing their movement rate (Caughman et al., 2024 Global Change Biology) and that retention bans are not enough to substantially reduce shark mortality due to death rates post-release for many species (Feitosa and Caughman et al., 2025 Fish and Fisheries). 
 
 
-![poster](images/sotm.jpg)
+![](images/sotm.jpg)
 
-### Determining drivers of species spatial patterns across scales
+### Understanding the biodiversity impacts of human movement
 
-In the face of global change, it is important to understand the drivers of species’ space use across scales. From species distributions to individual behavior choices, I employ statistical models to determine where species occur in space. I am particularly interested in exploring beyond the mean to determine how variability affects species choices. 
+The importance of wildlife movement has long been considered in ecology and conservation, but human movements have not, due to challenges measuring human behavior. In California, I'm synthesizing information on how California's current protected areas support both human use and biodiversity and what effects this has on species behavior within these parks in order to inform recreation management (Caughman et al., in Prep). At sea, I am using vessel location data to calculate the predictability of marine-based human activity globally, utilizing vessel presence and tracking information from Global Fishing Watch. I will continue to apply this data to a broad range of questions, from species behavioral responses and biodiversity patterns given marine policy, to informing ecological consequences of human-dominated landscapes and the identification of effective conservation measures to address them. 
 
 ### In the Field
 
@@ -27,17 +29,14 @@ In the face of global change, it is important to understand the drivers of speci
 
 |                             |                             |
 |---------------------------- |---------------------------- |
-| ![shore](images/edna.jpg)   | ![ci](images/edna_2.jpg)   |
+| ![shore](images/edna.jpg)   | ![ci](images/edna_2.JPG)   |
 
 
 
 #### Mo'orea Coral Reef LTER
-|                             |                             |
-|---------------------------- |---------------------------- |
-| ![boat](images/moorea4.jpg) | ![Allie](images/moorea5.jpg)|
 
 I spent June 2021 in Mo'orea, French Polynesia at the Gump Station assisting Mark Hay's lab as a reserach technician. 
 
-|                             |                             |
-|---------------------------- |---------------------------- |
-| ![](images/moorea1.JPG)     | ![](images/moorea3.jpg)     |
+|                             |                             |                |
+|---------------------------- |---------------------------- |----------------|
+| ![](images/moorea1.JPG)     | ![](images/moorea3.jpg)     |   ![boat](images/moorea4.jpg)             |
