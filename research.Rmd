@@ -7,7 +7,9 @@ title: "Research Themes"
 ### Disentangling drivers and impact of adult versus larval movement
 
 Unlike most species, fish movement occurs across two distinct life-stages, larval and adult. When studying the drivers of fish and the implications for conservation design, however, these life stages are often considered individually. To address this gap, I took a trait-based approach to explore how and why different combinations of adult and larval movement arise in fish species (Bradley and Caughman et al., 2024 Scientific Data; Rosenberg, Bradley, Gaines, and Caughman, in Review Marine Ecology Progress Series). Species display a tendency toward moderate movement at at least one life stage.
-<img src="images/fig1.png" alt="fig" width="200"/> 
+
+![](images/fig1.png)
+
 With this added understanding of what movement combinations are possible, I am answering a range of questions about the relative impact of adult and larval movement MPA design (Caughman et al., in Prep) to tracking climate change and life time fitness. Currently, this work is theoretical, but I hope to apply the concept to real-life case studies for MPA design and distribution shifting using high-resolution habitat and ocean current information.
 
 ![](images/acaughman_imcc7_1.JPG)
@@ -35,8 +37,7 @@ The importance of wildlife movement has long been considered in ecology and cons
 
 #### Mo'orea Coral Reef LTER
 
-I spent June 2021 in Mo'orea, French Polynesia at the Gump Station assisting Mark Hay's lab as a reserach technician. 
 
 |                             |                             |                |
 |---------------------------- |---------------------------- |----------------|
-| ![](images/moorea1.JPG)     | ![](images/moorea3.jpg)     |   ![boat](images/moorea4.jpg)             |
+| ![](images/moorea1.JPG)     | ![](images/moorea3.jpg)     | ![](images/moorea4.jpg)|

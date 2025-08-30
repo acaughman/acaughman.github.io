@@ -131,7 +131,14 @@ img[src="images/logo.png"] {
   top: -25px;
 }
 
-img[alt=boat] { width: 300px; }
-img[alt=Allie] { width: 533px; }
-img[src="images/moorea1.JPG"] { width: 300px; }
-img[src="images/moorea3.jpg"] { width: 300px; }
+img[src="images/sotm.jpg"] { width: 300px; }
+img[src="images/acaughman_imcc7_1.JPG"] { width: 300px; }
+
+img[src="images/edna.jpg"] { width: 300px; }
+img[src="images/edna_2.JPG"] { width: 300px; }
+
+img[src="images/moorea4.jpg"] { width: 200px; }
+img[src="images/moorea1.JPG"] { width: 200px; }
+img[src="images/moorea3.jpg"] { width: 200px; }
+
+img[src="images/fig1.png"] { width: 300px; }
