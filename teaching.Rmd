@@ -1,8 +1,11 @@
 ---
-title: "Teaching"
+title: "Teaching and Mentoring"
 ---
 
 I am passionate about making computational and statistical skills more accessible to students in ecology and environmental science. I was lucky to attend a school (Georgia Tech) where coding and statistics were both a requirement in my biology major, but still I saw my of my peers avoiding and dreading the requirement, despite how useful such skills are, and most biology classes were still using older technology for data analysis, such as minitab. As someone who both loves and values her statistical and coding skills, I've made it a mission to imbue students with the excitement and utility of these tools and reduce barriers to learning them. As part of my PhD, I am completing the CCUT (Certificate in College and University Teaching) in order to enhance my skills as a teacher and learn evidence-based strategies to accomplish my teaching goals.
+
+As a mentor, I prioritize providing students with full research experiences that allow them to learn foundational research skills, particularly coding, while supporting their broader professional development. I balance flexibility and structure to create an environment that empowers students and encourages accountability, while offering a safe space for learning and growth. To date, I have mentored 5 undergraduates, resulting in one publication with a mentee as first author and three masters group projects.
+
 
 ### Instructor of Record
 
