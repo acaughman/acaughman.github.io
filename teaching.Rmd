@@ -20,6 +20,8 @@ University of California Santa Barbara
 * Fall 2023: EDS 223 Geospatial Analysis and Remote Sensing 
 * Winter 2024: EDS 232 Machine Learning in Environmental Science
 * Spring 2024: EDS 411B Capstone Seminar
+* Winter 2026: EDS 411A Capstone Seminar
+* Spring 2026: EDS 411B Capstone Seminar
 
 Georgia Institute of Technology
 

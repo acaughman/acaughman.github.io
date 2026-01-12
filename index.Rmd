@@ -4,7 +4,7 @@ image: "images/Allie_Caughman_0002.jpg"
 site: distill::distill_website
 links:  
   - label: CV
-    url: "https://drive.google.com/file/d/1s-woFAYYaEllbQdK1xkLOQIWKBPNSVAC/view?usp=sharing"
+    url: "https://drive.google.com/file/d/1KIWt7tZ2Vbg2m6bdut8ZNfBHke_1IAVH/view?usp=sharing"
   - label: Google Scholar
     url: "https://scholar.google.com/citations?user=Yl1doQQAAAAJ&hl=en"
   - label: GitHub
