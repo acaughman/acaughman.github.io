@@ -14,7 +14,7 @@ With this added understanding of what movement combinations are possible, I am a
 
 ![](images/acaughman_imcc7_1.JPG)
 
-### Incoroporating species movement into marine policy
+### Incorporating species movement into marine policy
 
 Designing future-proofed protected areas requires understanding drivers of species movement to determine how biodiversity patterns may change over time. From species distributions to individual behavior choices, I employ statistical models to determine where species occur in space and why. This includes understanding patterns adult spillover due to habitat configuration and using eDNA in tandem with species distribution models to detect how species distributions overlap with current MPA networks. Additionally, I've shown that due to a release from fishing pressure, marine protected areas could have unintended consequences for species futures in climate change by reducing their movement rate (Caughman et al., 2024 Global Change Biology) and that retention bans are not enough to substantially reduce shark mortality due to death rates post-release for many species (Feitosa and Caughman et al., 2025 Fish and Fisheries). 
 
