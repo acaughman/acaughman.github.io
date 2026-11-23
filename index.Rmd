@@ -9,8 +9,8 @@ links:
     url: "https://scholar.google.com/citations?user=Yl1doQQAAAAJ&hl=en"
   - label: GitHub
     url: "https://github.com/acaughman"
-  - label: Twitter
-    url: "https://twitter.com/allie_amc"
+  - label: Bluesky
+    url: "https://bsky.app/profile/allieamc.bsky.social"
 output:
   postcards::trestles
 ---
@@ -32,11 +32,11 @@ I spend most of my free time rock climbing at the Santa Barbara Rock Gym in down
 
 B.S. Biology | Georgia Institute of Technology | 2020
 
-M.A. Statistics (Data Science) | University of California, Santa Barbara | 2024
+M.A. Statistics (Data Science) | University of California, Santa Barbara | March 2024
 
-M.S. Environmental Science and Management | University of California, Santa Barbara | 2026
+M.S. Environmental Science and Management | University of California, Santa Barbara | March 2026
 
-Ph.D. Environmental Science and Management | University of California, Santa Barbara | 2026 (expected)
+Ph.D. Environmental Science and Management | University of California, Santa Barbara | December 2026 (expected)
 
 
 #### Contact
